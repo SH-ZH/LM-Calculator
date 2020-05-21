@@ -15,8 +15,14 @@ input[readonly="readonly"] {
 	border: 1px solid #dee2e6;	
 }
 
-#enchant_stats td, #unit_stat_others td {
+td {
 	border-right: 1px solid #dee2e6;
+}
+
+.notes {
+	padding: 20px;
+    margin: 30px;
+    border-style: solid;
 }
 
 body {

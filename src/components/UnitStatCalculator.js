@@ -6,9 +6,6 @@ import RowHead from './RowHead.js';
 import GearTableHeader from './GearTableHeader.js';
 import UnitEnchant from './UnitEnchant.js';
 
-let en = require('../languages/en.json');
-let jp = require('../languages/jp.json');
-
 class UnitStatCalculator extends React.Component {
 	constructor(props) {
 		super(props);

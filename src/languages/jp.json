@@ -44,5 +44,21 @@
 	"onegreen": "1緑",
 	"twored": "2赤",
 	"twoblue": "2青",
-	"twogreen": "2緑"	
+	"twogreen": "2緑",
+	"usc": "キャラステータス計算機",
+	"ssc": "兵士ステータス計算機",
+	"s_base": "基本値",
+	"s_flat_training": "固定練兵",
+	"s_per_training": "％練兵",
+	"s_black": "黒字",
+	"s_green": "緑字",
+	"s_battle_black": "黒字（戦闘中）",
+	"s_battle_green": "緑字（戦闘中）",
+	"s_hero_boost": "英雄補正",
+	"s_troop_skill": "兵士スキル",
+	"s_tech_bonus": "特殊訓練",
+	"s_buffs": "バフ"	,
+	"bonus": "兵士補正 %",
+	"number_warning": "計算上、実際の数字より1低かったり高かったりします",
+	"soldier_page_hero_talent": "英雄の兵士強化タレント効果はバフ枠に入れてください"
 }	
