@@ -1,6 +1,7 @@
 import React from 'react';
 import ClosedInput from './ClosedInput.js';
 import OpenInput from './OpenInput.js';
+import OpenPercentInput from './OpenPercentInput.js';
 import TableHead from './TableHead.js';
 import RowHead from './RowHead.js';
 import GearTableHeader from './GearTableHeader.js';
@@ -864,323 +865,325 @@ class UnitStatCalculator extends React.Component {
 		const total_pvp_skill = +in_battle_skill + +this.state.skill_pvp;
 		
 		return (
-			<div class="table-responsive">
-				<table class="table" id="base_stats">
-				  <thead class="thead-dark">
-					<tr>
-						<TableHead text="status" lang={this.state.language} />
-						<TableHead text="black" lang={this.state.language} />
-						<TableHead text="green" lang={this.state.language} />
-						<TableHead text="total" lang={this.state.language} />
-						<TableHead text="inbattle" lang={this.state.language} />
-						<TableHead text="pvp" lang={this.state.language} />
-					</tr>
-				  </thead>
-				  <tbody>
-					<tr>
-					  <RowHead text="hp" lang={this.state.language} />
-					  <OpenInput id="hp_unit" onInput={this.updateHP} />
-					  <ClosedInput id="hp_unit_green" value={hp_green} />
-					  <ClosedInput id="hp_unit_total" value={hp_total} />
-					  <ClosedInput id="hp_unit_battle" value={in_battle_hp.toFixed(1)} />
-					  <ClosedInput id="hp_unit_pvp" value={total_pvp_hp.toFixed(1)} />
-					</tr>
-					<tr>
-					  <RowHead text="atk" lang={this.state.language} />
-					  <OpenInput id="atk_unit" onInput={this.updateAtk} />
-					  <ClosedInput id="atk_unit_green" value={atk_green} />
-					  <ClosedInput id="atk_unit_total" value={atk_total} />
-					  <ClosedInput id="atk_unit_battle" value={in_battle_atk.toFixed(1)} />	
-					  <ClosedInput id="atk_unit_pvp" value={total_pvp_atk.toFixed(1)} />					  
-					</tr>
-					<tr>
-					  <RowHead text="mag" lang={this.state.language} />
-					  <OpenInput id="mag_unit" onInput={this.updateMag} />				  
-					  <ClosedInput id="mag_unit_green" value={mag_green} />
-					  <ClosedInput id="mag_unit_total" value={mag_total} />
-					  <ClosedInput id="mag_unit_battle" value={in_battle_mag.toFixed(1)} />	
-					  <ClosedInput id="mag_unit_pvp" value={total_pvp_mag.toFixed(1)} />					  
-					</tr>
-					<tr>
-					  <RowHead text="def" lang={this.state.language} />
-					  <OpenInput id="def_unit" onInput={this.updateDef} />	
-					  <ClosedInput id="def_unit_green" value={def_green} />
-					  <ClosedInput id="def_unit_total" value={def_total} />
-					  <ClosedInput id="def_unit_battle" value={in_battle_def.toFixed(1)} />
-					  <ClosedInput id="def_unit_pvp" value={total_pvp_def.toFixed(1)} />
-					</tr>			
-					<tr>
-					  <RowHead text="mdef" lang={this.state.language} />
-					  <OpenInput id="mdef_unit" onInput={this.updateMDef} />	
-					  <ClosedInput id="mdef_unit_green" value={mdef_green} />
-					  <ClosedInput id="mdef_unit_total" value={mdef_total} />
-					  <ClosedInput id="mdef_unit_battle" value={in_battle_mdef.toFixed(1)} />
-					  <ClosedInput id="mdef_unit_pvp" value={total_pvp_mdef.toFixed(1)} />
-					</tr>			
-					<tr>
-					  <RowHead text="skill" lang={this.state.language} />
-					  <OpenInput id="skill_unit" onInput={this.updateSkill} />	
-					  <ClosedInput id="skill_unit_green" value={skill_green} />
-					  <ClosedInput id="skill_unit_total" value={skill_total} />
-					  <ClosedInput id="skill_unit_battle" value={in_battle_skill.toFixed(1)} />					  			  
-					  <ClosedInput id="skill_unit_pvp" value={total_pvp_skill.toFixed(1)} />
-					</tr>
-				  </tbody>
-				</table>
-				
-				<table class="table" id="enchant_stats">
-				  <GearTableHeader tableHeader="gear_stat" lang={this.state.language} />
-				  <tbody>
-					<tr>
-					  <RowHead text="hp" lang={this.state.language} />
-					  <OpenInput id="hp_weapon_stat" onInput={this.updateHPWeaponStat} />
-					  <OpenInput id="hp_armor_stat" onInput={this.updateHPArmorStat} />
-					  <OpenInput id="hp_helmet_stat" onInput={this.updateHPHelmetStat} />
-					  <OpenInput id="hp_acc_stat" onInput={this.updateHPAccStat} />
-					  <OpenInput id="hp_mastery_stat" onInput={this.updateHPMasteryStat} />  
-					</tr>
-					<tr>
-					  <RowHead text="atk" lang={this.state.language} />
-					  <OpenInput id="atk_weapon_stat" onInput={this.updateAtkWeaponStat} />
-					  <OpenInput id="atk_armor_stat" onInput={this.updateAtkArmorStat} />
-					  <OpenInput id="atk_helmet_stat" onInput={this.updateAtkHelmetStat} />
-					  <OpenInput id="atk_acc_stat" onInput={this.updateAtkAccStat} />
-					  <OpenInput id="atk_mastery_stat" onInput={this.updateAtkMasteryStat} />  				  			  
-					</tr>
-					<tr>
-					  <RowHead text="mag" lang={this.state.language} />
-					  <OpenInput id="mag_weapon_stat" onInput={this.updateMagWeaponStat} />
-					  <OpenInput id="mag_armor_stat" onInput={this.updateMagArmorStat} />
-					  <OpenInput id="mag_helmet_stat" onInput={this.updateMagHelmetStat} />
-					  <OpenInput id="mag_acc_stat" onInput={this.updateMagAccStat} />
-					  <OpenInput id="mag_mastery_stat" onInput={this.updateMagMasteryStat} /> 				  			  				  			  
-					</tr>
-					<tr>
-					  <RowHead text="def" lang={this.state.language} />
-					  <OpenInput id="def_weapon_stat" onInput={this.updateDefWeaponStat} />
-					  <OpenInput id="def_armor_stat" onInput={this.updateDefArmorStat} />
-					  <OpenInput id="def_helmet_stat" onInput={this.updateDefHelmetStat} />
-					  <OpenInput id="def_acc_stat" onInput={this.updateDefAccStat} />
-					  <OpenInput id="def_mastery_stat" onInput={this.updateDefMasteryStat} />  				  
-					</tr>			
-					<tr>
-					  <RowHead text="mdef" lang={this.state.language} />
-					  <OpenInput id="mdef_weapon_stat" onInput={this.updateMDefWeaponStat} />
-					  <OpenInput id="mdef_armor_stat" onInput={this.updateMDefArmorStat} />
-					  <OpenInput id="mdef_helmet_stat" onInput={this.updateMDefHelmetStat} />
-					  <OpenInput id="mdef_acc_stat" onInput={this.updateMDefAccStat} />
-					  <OpenInput id="mdef_mastery_stat" onInput={this.updateMDefMasteryStat} /> 					  			  
-					</tr>			
-					<tr>
-					  <RowHead text="skill" lang={this.state.language} />
-					  <OpenInput id="skill_weapon_stat" onInput={this.updateSkillWeaponStat} />
-					  <OpenInput id="skill_armor_stat" onInput={this.updateSkillArmorStat} />
-					  <OpenInput id="skill_helmet_stat" onInput={this.updateSkillHelmetStat} />
-					  <OpenInput id="skill_acc_stat" onInput={this.updateSkillAccStat} />
-					  <OpenInput id="skill_mastery_stat" onInput={this.updateSkillMasteryStat} /> 				  			  
-					</tr>
-				  </tbody>
-
-				  <GearTableHeader tableHeader="gear_skill" lang={this.state.language} />
-				  <tbody>
-					<tr>
-					  <RowHead text="hp" lang={this.state.language} />
-					  <OpenInput id="hp_weapon_skill" onInput={this.updateHPWeaponSkill} />
-					  <OpenInput id="hp_armor_skill" onInput={this.updateHPArmorSkill} />
-					  <OpenInput id="hp_helmet_skill" onInput={this.updateHPHelmetSkill} />
-					  <OpenInput id="hp_acc_skill" onInput={this.updateHPAccSkill} />
-					  <ClosedInput id="hp_mastery_skill" />	
-					</tr>
-					<tr>
-					  <RowHead text="atk" lang={this.state.language} />
-					  <OpenInput id="atk_weapon_skill" onInput={this.updateAtkWeaponSkill} />
-					  <OpenInput id="atk_armor_skill" onInput={this.updateAtkArmorSkill} />
-					  <OpenInput id="atk_helmet_skill" onInput={this.updateAtkHelmetSkill} />
-					  <OpenInput id="atk_acc_skill" onInput={this.updateAtkAccSkill} />
-					  <ClosedInput id="atk_mastery_skill" />	
-					</tr>
-					<tr>
-					  <RowHead text="mag" lang={this.state.language} />
-					  <OpenInput id="mag_weapon_skill" onInput={this.updateMagWeaponSkill} />
-					  <OpenInput id="mag_armor_skill" onInput={this.updateMagArmorSkill} />
-					  <OpenInput id="mag_helmet_skill" onInput={this.updateMagHelmetSkill} />
-					  <OpenInput id="mag_acc_skill" onInput={this.updateMagAccSkill} />
-					  <ClosedInput id="mag_mastery_skill" />						  
-					</tr>
-					<tr>
-					  <RowHead text="def" lang={this.state.language} />
-					  <OpenInput id="def_weapon_skill" onInput={this.updateDefWeaponSkill} />
-					  <OpenInput id="def_armor_skill" onInput={this.updateDefArmorSkill} />
-					  <OpenInput id="def_helmet_skill" onInput={this.updateDefHelmetSkill} />
-					  <OpenInput id="def_acc_skill" onInput={this.updateDefAccSkill} />
-					  <ClosedInput id="def_mastery_skill" />						  
-					</tr>			
-					<tr>
-					  <RowHead text="mdef" lang={this.state.language} />
-					  <OpenInput id="mdef_weapon_skill" onInput={this.updateMDefWeaponSkill} />
-					  <OpenInput id="mdef_armor_skill" onInput={this.updateMDefArmorSkill} />
-					  <OpenInput id="mdef_helmet_skill" onInput={this.updateMDefHelmetSkill} />
-					  <OpenInput id="mdef_acc_skill" onInput={this.updateMDefAccSkill} />
-					  <ClosedInput id="mdef_mastery_skill" />						  
-					</tr>			
-					<tr>
-					  <RowHead text="skill" lang={this.state.language} />
-					  <OpenInput id="skill_weapon_skill" onInput={this.updateSkillWeaponSkill} />
-					  <OpenInput id="skill_armor_skill" onInput={this.updateSkillArmorSkill} />
-					  <OpenInput id="skill_helmet_skill" onInput={this.updateSkillHelmetSkill} />
-					  <OpenInput id="skill_acc_skill" onInput={this.updateSkillAccSkill} />
-					  <ClosedInput id="skill_mastery_skill" />						  
-					</tr>
-				  </tbody>	
-
-				  <GearTableHeader tableHeader="gear_enchant" lang={this.state.language} />
-				  <tbody>
-					<tr>
-					  <RowHead text="hp_percentage" lang={this.state.language} />
-					  <OpenInput id="hp_weapon_percentage_enchant" onInput={this.updateHPWeaponPercentEnchant} />
-					  <OpenInput id="hp_armor_percentage_enchant" onInput={this.updateHPArmorPercentEnchant} />
-					  <OpenInput id="hp_helmet_percentage_enchant" onInput={this.updateHPHelmetPercentEnchant} />
-					  <OpenInput id="hp_acc_percentage_enchant" onInput={this.updateHPAccPercentEnchant} />
-					  <ClosedInput id="hp_mastery_percentage_enchant" />						  
-					</tr>
-					<tr>
-					  <RowHead text="hp_flat" lang={this.state.language} />
-					  <OpenInput id="hp_weapon_flat_enchant" onInput={this.updateHPWeaponFlatEnchant} />
-					  <OpenInput id="hp_armor_flat_enchant" onInput={this.updateHPArmorFlatEnchant} />
-					  <OpenInput id="hp_helmet_flat_enchant" onInput={this.updateHPHelmetFlatEnchant} />
-					  <OpenInput id="hp_acc_flat_enchant" onInput={this.updateHPAccFlatEnchant} />
-					  <ClosedInput id="hp_mastery_flat_enchant" />	
-					</tr>					
-					<tr>
-					  <RowHead text="atk_percentage" lang={this.state.language} />
-					  <OpenInput id="atk_weapon_percentage_enchant" onInput={this.updateAtkWeaponPercentEnchant} />
-					  <OpenInput id="atk_armor_percentage_enchant" onInput={this.updateAtkArmorPercentEnchant} />
-					  <OpenInput id="atk_helmet_percentage_enchant" onInput={this.updateAtkHelmetPercentEnchant} />
-					  <OpenInput id="atk_acc_percentage_enchant" onInput={this.updateAtkAccPercentEnchant} />
-					  <ClosedInput id="atk_mastery_percentage_enchant" />						  
-					</tr>
-					<tr>
-					  <RowHead text="atk_flat" lang={this.state.language} />
-					  <OpenInput id="atk_weapon_flat_enchant" onInput={this.updateAtkWeaponFlatEnchant} />
-					  <OpenInput id="atk_armor_flat_enchant" onInput={this.updateAtkArmorFlatEnchant} />
-					  <OpenInput id="atk_helmet_flat_enchant" onInput={this.updateAtkHelmetFlatEnchant} />
-					  <OpenInput id="atk_acc_flat_enchant" onInput={this.updateAtkAccFlatEnchant} />
-					  <ClosedInput id="atk_mastery_flat_enchant" />	
-					</tr>	
-					<tr>
-					  <RowHead text="mag_percentage" lang={this.state.language} />
-					  <OpenInput id="mag_weapon_percentage_enchant" onInput={this.updateMagWeaponPercentEnchant} />
-					  <OpenInput id="mag_armor_percentage_enchant" onInput={this.updateMagArmorPercentEnchant} />
-					  <OpenInput id="mag_helmet_percentage_enchant" onInput={this.updateMagHelmetPercentEnchant} />
-					  <OpenInput id="mag_acc_percentage_enchant" onInput={this.updateMagAccPercentEnchant} />
-					  <ClosedInput id="mag_mastery_percentage_enchant" />						  
-					</tr>
-					<tr>
-					  <RowHead text="mag_flat" lang={this.state.language} />
-					  <OpenInput id="mag_weapon_flat_enchant" onInput={this.updateMagWeaponFlatEnchant} />
-					  <OpenInput id="mag_armor_flat_enchant" onInput={this.updateMagArmorFlatEnchant} />
-					  <OpenInput id="mag_helmet_flat_enchant" onInput={this.updateMagHelmetFlatEnchant} />
-					  <OpenInput id="mag_acc_flat_enchant" onInput={this.updateMagAccFlatEnchant} />
-					  <ClosedInput id="mag_mastery_flat_enchant" />	
-					</tr>
-					<tr>
-					  <RowHead text="def_percentage" lang={this.state.language} />
-					  <OpenInput id="def_weapon_percentage_enchant" onInput={this.updateDefWeaponPercentEnchant} />
-					  <OpenInput id="def_armor_percentage_enchant" onInput={this.updateDefArmorPercentEnchant} />
-					  <OpenInput id="def_helmet_percentage_enchant" onInput={this.updateDefHelmetPercentEnchant} />
-					  <OpenInput id="def_acc_percentage_enchant" onInput={this.updateDefAccPercentEnchant} />
-					  <ClosedInput id="def_mastery_percentage_enchant" />						  
-					</tr>
-					<tr>
-					  <RowHead text="def_flat" lang={this.state.language} />
-					  <OpenInput id="def_weapon_flat_enchant" onInput={this.updateDefWeaponFlatEnchant} />
-					  <OpenInput id="def_armor_flat_enchant" onInput={this.updateDefArmorFlatEnchant} />
-					  <OpenInput id="def_helmet_flat_enchant" onInput={this.updateDefHelmetFlatEnchant} />
-					  <OpenInput id="def_acc_flat_enchant" onInput={this.updateDefAccFlatEnchant} />
-					  <ClosedInput id="def_mastery_flat_enchant" />	
-					</tr>		
-					<tr>
-					  <RowHead text="mdef_percentage" lang={this.state.language} />
-					  <OpenInput id="mdef_weapon_percentage_enchant" onInput={this.updateMDefWeaponPercentEnchant} />
-					  <OpenInput id="mdef_armor_percentage_enchant" onInput={this.updateMDefArmorPercentEnchant} />
-					  <OpenInput id="mdef_helmet_percentage_enchant" onInput={this.updateMDefHelmetPercentEnchant} />
-					  <OpenInput id="mdef_acc_percentage_enchant" onInput={this.updateMDefAccPercentEnchant} />
-					  <ClosedInput id="mdef_mastery_percentage_enchant" />						  
-					</tr>
-					<tr>
-					  <RowHead text="mdef_flat" lang={this.state.language} />
-					  <OpenInput id="mdef_weapon_flat_enchant" onInput={this.updateMDefWeaponFlatEnchant} />
-					  <OpenInput id="mdef_armor_flat_enchant" onInput={this.updateMDefArmorFlatEnchant} />
-					  <OpenInput id="mdef_helmet_flat_enchant" onInput={this.updateMDefHelmetFlatEnchant} />
-					  <OpenInput id="mdef_acc_flat_enchant" onInput={this.updateMDefAccFlatEnchant} />
-					  <ClosedInput id="mdef_mastery_flat_enchant" />	
-					</tr>			
-					<tr>
-					  <RowHead text="skill_percentage" lang={this.state.language} />
-					  <OpenInput id="skill_weapon_percentage_enchant" onInput={this.updateSkillWeaponPercentEnchant} />
-					  <OpenInput id="skill_armor_percentage_enchant" onInput={this.updateSkillArmorPercentEnchant} />
-					  <OpenInput id="skill_helmet_percentage_enchant" onInput={this.updateSkillHelmetPercentEnchant} />
-					  <OpenInput id="skill_acc_percentage_enchant" onInput={this.updateSkillAccPercentEnchant} />
-					  <ClosedInput id="skill_mastery_percentage_enchant" />						  
-					</tr>
-					<tr>
-					  <RowHead text="skill_flat" lang={this.state.language} />
-					  <OpenInput id="skill_weapon_flat_enchant" onInput={this.updateSkillWeaponFlatEnchant} />
-					  <OpenInput id="skill_armor_flat_enchant" onInput={this.updateSkillArmorFlatEnchant} />
-					  <OpenInput id="skill_helmet_flat_enchant" onInput={this.updateSkillHelmetFlatEnchant} />
-					  <OpenInput id="skill_acc_flat_enchant" onInput={this.updateSkillAccFlatEnchant} />
-					  <ClosedInput id="skill_mastery_flat_enchant" />	
-					</tr>	
-				  </tbody>					  
-				</table>
-
-				<table class="table" id="unit_stat_others">
+			<div class="container">
+				<div class="table-responsive">
+					<table class="table" id="base_stats">
 					<thead class="thead-dark">
 						<tr>
-							<TableHead text="others" lang={this.state.language} />
-							<TableHead text="hp" lang={this.state.language} />
-							<TableHead text="atk" lang={this.state.language} />
-							<TableHead text="mag" lang={this.state.language} />
-							<TableHead text="def" lang={this.state.language} />
-							<TableHead text="mdef" lang={this.state.language} />													
-							<TableHead text="skill" lang={this.state.language} />													
+							<TableHead text="status" lang={this.state.language} />
+							<TableHead text="black" lang={this.state.language} />
+							<TableHead text="green" lang={this.state.language} />
+							<TableHead text="total" lang={this.state.language} />
+							<TableHead text="inbattle" lang={this.state.language} />
+							<TableHead text="pvp" lang={this.state.language} />
 						</tr>
-					</thead>				
+					</thead>
 					<tbody>
 						<tr>
-							<RowHead text="buffs" lang={this.state.language} />
-							<OpenInput id="hp_buff" onInput={this.updateHPBuff} />
-							<OpenInput id="atk_buff" onInput={this.updateAtkBuff} />
-							<OpenInput id="mag_buff" onInput={this.updateMagBuff} />
-							<OpenInput id="def_buff" onInput={this.updateDefBuff} />
-							<OpenInput id="mdef_buff" onInput={this.updateMDefBuff} />
-							<OpenInput id="skill_buff" onInput={this.updateSkillBuff} />							
+						<RowHead text="hp" lang={this.state.language} />
+						<OpenInput id="hp_unit" onInput={this.updateHP} />
+						<ClosedInput id="hp_unit_green" value={hp_green} />
+						<ClosedInput id="hp_unit_total" value={hp_total} />
+						<ClosedInput id="hp_unit_battle" value={in_battle_hp.toFixed(1)} />
+						<ClosedInput id="hp_unit_pvp" value={total_pvp_hp.toFixed(1)} />
 						</tr>
 						<tr>
-							<RowHead text="passives" lang={this.state.language} />
-							<OpenInput id="hp_passive" onInput={this.updateHPPassive} />
-							<OpenInput id="atk_passive" onInput={this.updateAtkPassive} />
-							<OpenInput id="mag_passive" onInput={this.updateMagPassive} />
-							<OpenInput id="def_passive" onInput={this.updateDefPassive} />
-							<OpenInput id="mdef_passive" onInput={this.updateMDefPassive} />
-							<OpenInput id="skill_passive" onInput={this.updateSkillPassive} />					  			  
+						<RowHead text="atk" lang={this.state.language} />
+						<OpenInput id="atk_unit" onInput={this.updateAtk} />
+						<ClosedInput id="atk_unit_green" value={atk_green} />
+						<ClosedInput id="atk_unit_total" value={atk_total} />
+						<ClosedInput id="atk_unit_battle" value={in_battle_atk.toFixed(1)} />	
+						<ClosedInput id="atk_unit_pvp" value={total_pvp_atk.toFixed(1)} />					  
 						</tr>
-						<tr id="unit_table_end">
-							<RowHead text="pvpmastery" lang={this.state.language} />
-							<OpenInput id="hp_pvp" onInput={this.updateHPPvP} />
-							<OpenInput id="atk_pvp" onInput={this.updateAtkPvP} />
-							<OpenInput id="mag_pvp" onInput={this.updateMagPvP} />
-							<OpenInput id="def_pvp" onInput={this.updateDefPvP} />
-							<OpenInput id="mdef_pvp" onInput={this.updateMDefPvP} />
-							<OpenInput id="skill_pvp" onInput={this.updateSkillPvP} />					  			  
-						</tr>						
 						<tr>
-							<RowHead text="enchant" lang={this.state.language} />	
-							<UnitEnchant onInput={this.updateEnchantType} lang={this.state.language} />
+						<RowHead text="mag" lang={this.state.language} />
+						<OpenInput id="mag_unit" onInput={this.updateMag} />				  
+						<ClosedInput id="mag_unit_green" value={mag_green} />
+						<ClosedInput id="mag_unit_total" value={mag_total} />
+						<ClosedInput id="mag_unit_battle" value={in_battle_mag.toFixed(1)} />	
+						<ClosedInput id="mag_unit_pvp" value={total_pvp_mag.toFixed(1)} />					  
+						</tr>
+						<tr>
+						<RowHead text="def" lang={this.state.language} />
+						<OpenInput id="def_unit" onInput={this.updateDef} />	
+						<ClosedInput id="def_unit_green" value={def_green} />
+						<ClosedInput id="def_unit_total" value={def_total} />
+						<ClosedInput id="def_unit_battle" value={in_battle_def.toFixed(1)} />
+						<ClosedInput id="def_unit_pvp" value={total_pvp_def.toFixed(1)} />
+						</tr>			
+						<tr>
+						<RowHead text="mdef" lang={this.state.language} />
+						<OpenInput id="mdef_unit" onInput={this.updateMDef} />	
+						<ClosedInput id="mdef_unit_green" value={mdef_green} />
+						<ClosedInput id="mdef_unit_total" value={mdef_total} />
+						<ClosedInput id="mdef_unit_battle" value={in_battle_mdef.toFixed(1)} />
+						<ClosedInput id="mdef_unit_pvp" value={total_pvp_mdef.toFixed(1)} />
+						</tr>			
+						<tr>
+						<RowHead text="skill" lang={this.state.language} />
+						<OpenInput id="skill_unit" onInput={this.updateSkill} />	
+						<ClosedInput id="skill_unit_green" value={skill_green} />
+						<ClosedInput id="skill_unit_total" value={skill_total} />
+						<ClosedInput id="skill_unit_battle" value={in_battle_skill.toFixed(1)} />					  			  
+						<ClosedInput id="skill_unit_pvp" value={total_pvp_skill.toFixed(1)} />
 						</tr>
 					</tbody>
-				</table>				
-			</div>						
+					</table>
+					
+					<table class="table" id="enchant_stats">
+					<GearTableHeader tableHeader="gear_stat" lang={this.state.language} />
+					<tbody>
+						<tr>
+						<RowHead text="hp" lang={this.state.language} />
+						<OpenInput id="hp_weapon_stat" onInput={this.updateHPWeaponStat} />
+						<OpenInput id="hp_armor_stat" onInput={this.updateHPArmorStat} />
+						<OpenInput id="hp_helmet_stat" onInput={this.updateHPHelmetStat} />
+						<OpenInput id="hp_acc_stat" onInput={this.updateHPAccStat} />
+						<OpenInput id="hp_mastery_stat" onInput={this.updateHPMasteryStat} />  
+						</tr>
+						<tr>
+						<RowHead text="atk" lang={this.state.language} />
+						<OpenInput id="atk_weapon_stat" onInput={this.updateAtkWeaponStat} />
+						<OpenInput id="atk_armor_stat" onInput={this.updateAtkArmorStat} />
+						<OpenInput id="atk_helmet_stat" onInput={this.updateAtkHelmetStat} />
+						<OpenInput id="atk_acc_stat" onInput={this.updateAtkAccStat} />
+						<OpenInput id="atk_mastery_stat" onInput={this.updateAtkMasteryStat} />  				  			  
+						</tr>
+						<tr>
+						<RowHead text="mag" lang={this.state.language} />
+						<OpenInput id="mag_weapon_stat" onInput={this.updateMagWeaponStat} />
+						<OpenInput id="mag_armor_stat" onInput={this.updateMagArmorStat} />
+						<OpenInput id="mag_helmet_stat" onInput={this.updateMagHelmetStat} />
+						<OpenInput id="mag_acc_stat" onInput={this.updateMagAccStat} />
+						<OpenInput id="mag_mastery_stat" onInput={this.updateMagMasteryStat} /> 				  			  				  			  
+						</tr>
+						<tr>
+						<RowHead text="def" lang={this.state.language} />
+						<OpenInput id="def_weapon_stat" onInput={this.updateDefWeaponStat} />
+						<OpenInput id="def_armor_stat" onInput={this.updateDefArmorStat} />
+						<OpenInput id="def_helmet_stat" onInput={this.updateDefHelmetStat} />
+						<OpenInput id="def_acc_stat" onInput={this.updateDefAccStat} />
+						<OpenInput id="def_mastery_stat" onInput={this.updateDefMasteryStat} />  				  
+						</tr>			
+						<tr>
+						<RowHead text="mdef" lang={this.state.language} />
+						<OpenInput id="mdef_weapon_stat" onInput={this.updateMDefWeaponStat} />
+						<OpenInput id="mdef_armor_stat" onInput={this.updateMDefArmorStat} />
+						<OpenInput id="mdef_helmet_stat" onInput={this.updateMDefHelmetStat} />
+						<OpenInput id="mdef_acc_stat" onInput={this.updateMDefAccStat} />
+						<OpenInput id="mdef_mastery_stat" onInput={this.updateMDefMasteryStat} /> 					  			  
+						</tr>			
+						<tr>
+						<RowHead text="skill" lang={this.state.language} />
+						<OpenInput id="skill_weapon_stat" onInput={this.updateSkillWeaponStat} />
+						<OpenInput id="skill_armor_stat" onInput={this.updateSkillArmorStat} />
+						<OpenInput id="skill_helmet_stat" onInput={this.updateSkillHelmetStat} />
+						<OpenInput id="skill_acc_stat" onInput={this.updateSkillAccStat} />
+						<OpenInput id="skill_mastery_stat" onInput={this.updateSkillMasteryStat} /> 				  			  
+						</tr>
+					</tbody>
+
+					<GearTableHeader tableHeader="gear_skill" lang={this.state.language} />
+					<tbody>
+						<tr>
+						<RowHead text="hp_percentage" lang={this.state.language} />
+						<OpenPercentInput id="hp_weapon_skill" onInput={this.updateHPWeaponSkill} />
+						<OpenPercentInput id="hp_armor_skill" onInput={this.updateHPArmorSkill} />
+						<OpenPercentInput id="hp_helmet_skill" onInput={this.updateHPHelmetSkill} />
+						<OpenPercentInput id="hp_acc_skill" onInput={this.updateHPAccSkill} />
+						<ClosedInput id="hp_mastery_skill" />	
+						</tr>
+						<tr>
+						<RowHead text="atk_percentage" lang={this.state.language} />
+						<OpenPercentInput id="atk_weapon_skill" onInput={this.updateAtkWeaponSkill} />
+						<OpenPercentInput id="atk_armor_skill" onInput={this.updateAtkArmorSkill} />
+						<OpenPercentInput id="atk_helmet_skill" onInput={this.updateAtkHelmetSkill} />
+						<OpenPercentInput id="atk_acc_skill" onInput={this.updateAtkAccSkill} />
+						<ClosedInput id="atk_mastery_skill" />	
+						</tr>
+						<tr>
+						<RowHead text="mag_percentage" lang={this.state.language} />
+						<OpenPercentInput id="mag_weapon_skill" onInput={this.updateMagWeaponSkill} />
+						<OpenPercentInput id="mag_armor_skill" onInput={this.updateMagArmorSkill} />
+						<OpenPercentInput id="mag_helmet_skill" onInput={this.updateMagHelmetSkill} />
+						<OpenPercentInput id="mag_acc_skill" onInput={this.updateMagAccSkill} />
+						<ClosedInput id="mag_mastery_skill" />						  
+						</tr>
+						<tr>
+						<RowHead text="def_percentage" lang={this.state.language} />
+						<OpenPercentInput id="def_weapon_skill" onInput={this.updateDefWeaponSkill} />
+						<OpenPercentInput id="def_armor_skill" onInput={this.updateDefArmorSkill} />
+						<OpenPercentInput id="def_helmet_skill" onInput={this.updateDefHelmetSkill} />
+						<OpenPercentInput id="def_acc_skill" onInput={this.updateDefAccSkill} />
+						<ClosedInput id="def_mastery_skill" />						  
+						</tr>			
+						<tr>
+						<RowHead text="mdef_percentage" lang={this.state.language} />
+						<OpenPercentInput id="mdef_weapon_skill" onInput={this.updateMDefWeaponSkill} />
+						<OpenPercentInput id="mdef_armor_skill" onInput={this.updateMDefArmorSkill} />
+						<OpenPercentInput id="mdef_helmet_skill" onInput={this.updateMDefHelmetSkill} />
+						<OpenPercentInput id="mdef_acc_skill" onInput={this.updateMDefAccSkill} />
+						<ClosedInput id="mdef_mastery_skill" />						  
+						</tr>			
+						<tr>
+						<RowHead text="skill_percentage" lang={this.state.language} />
+						<OpenPercentInput id="skill_weapon_skill" onInput={this.updateSkillWeaponSkill} />
+						<OpenPercentInput id="skill_armor_skill" onInput={this.updateSkillArmorSkill} />
+						<OpenPercentInput id="skill_helmet_skill" onInput={this.updateSkillHelmetSkill} />
+						<OpenPercentInput id="skill_acc_skill" onInput={this.updateSkillAccSkill} />
+						<ClosedInput id="skill_mastery_skill" />						  
+						</tr>
+					</tbody>	
+
+					<GearTableHeader tableHeader="gear_enchant" lang={this.state.language} />
+					<tbody>
+						<tr>
+						<RowHead text="hp_percentage" lang={this.state.language} />
+						<OpenPercentInput id="hp_weapon_percentage_enchant" onInput={this.updateHPWeaponPercentEnchant} />
+						<OpenPercentInput id="hp_armor_percentage_enchant" onInput={this.updateHPArmorPercentEnchant} />
+						<OpenPercentInput id="hp_helmet_percentage_enchant" onInput={this.updateHPHelmetPercentEnchant} />
+						<OpenPercentInput id="hp_acc_percentage_enchant" onInput={this.updateHPAccPercentEnchant} />
+						<ClosedInput id="hp_mastery_percentage_enchant" />						  
+						</tr>
+						<tr>
+						<RowHead text="hp_flat" lang={this.state.language} />
+						<OpenInput id="hp_weapon_flat_enchant" onInput={this.updateHPWeaponFlatEnchant} />
+						<OpenInput id="hp_armor_flat_enchant" onInput={this.updateHPArmorFlatEnchant} />
+						<OpenInput id="hp_helmet_flat_enchant" onInput={this.updateHPHelmetFlatEnchant} />
+						<OpenInput id="hp_acc_flat_enchant" onInput={this.updateHPAccFlatEnchant} />
+						<ClosedInput id="hp_mastery_flat_enchant" />	
+						</tr>					
+						<tr>
+						<RowHead text="atk_percentage" lang={this.state.language} />
+						<OpenPercentInput id="atk_weapon_percentage_enchant" onInput={this.updateAtkWeaponPercentEnchant} />
+						<OpenPercentInput id="atk_armor_percentage_enchant" onInput={this.updateAtkArmorPercentEnchant} />
+						<OpenPercentInput id="atk_helmet_percentage_enchant" onInput={this.updateAtkHelmetPercentEnchant} />
+						<OpenPercentInput id="atk_acc_percentage_enchant" onInput={this.updateAtkAccPercentEnchant} />
+						<ClosedInput id="atk_mastery_percentage_enchant" />						  
+						</tr>
+						<tr>
+						<RowHead text="atk_flat" lang={this.state.language} />
+						<OpenInput id="atk_weapon_flat_enchant" onInput={this.updateAtkWeaponFlatEnchant} />
+						<OpenInput id="atk_armor_flat_enchant" onInput={this.updateAtkArmorFlatEnchant} />
+						<OpenInput id="atk_helmet_flat_enchant" onInput={this.updateAtkHelmetFlatEnchant} />
+						<OpenInput id="atk_acc_flat_enchant" onInput={this.updateAtkAccFlatEnchant} />
+						<ClosedInput id="atk_mastery_flat_enchant" />	
+						</tr>	
+						<tr>
+						<RowHead text="mag_percentage" lang={this.state.language} />
+						<OpenPercentInput id="mag_weapon_percentage_enchant" onInput={this.updateMagWeaponPercentEnchant} />
+						<OpenPercentInput id="mag_armor_percentage_enchant" onInput={this.updateMagArmorPercentEnchant} />
+						<OpenPercentInput id="mag_helmet_percentage_enchant" onInput={this.updateMagHelmetPercentEnchant} />
+						<OpenPercentInput id="mag_acc_percentage_enchant" onInput={this.updateMagAccPercentEnchant} />
+						<ClosedInput id="mag_mastery_percentage_enchant" />						  
+						</tr>
+						<tr>
+						<RowHead text="mag_flat" lang={this.state.language} />
+						<OpenInput id="mag_weapon_flat_enchant" onInput={this.updateMagWeaponFlatEnchant} />
+						<OpenInput id="mag_armor_flat_enchant" onInput={this.updateMagArmorFlatEnchant} />
+						<OpenInput id="mag_helmet_flat_enchant" onInput={this.updateMagHelmetFlatEnchant} />
+						<OpenInput id="mag_acc_flat_enchant" onInput={this.updateMagAccFlatEnchant} />
+						<ClosedInput id="mag_mastery_flat_enchant" />	
+						</tr>
+						<tr>
+						<RowHead text="def_percentage" lang={this.state.language} />
+						<OpenPercentInput id="def_weapon_percentage_enchant" onInput={this.updateDefWeaponPercentEnchant} />
+						<OpenPercentInput id="def_armor_percentage_enchant" onInput={this.updateDefArmorPercentEnchant} />
+						<OpenPercentInput id="def_helmet_percentage_enchant" onInput={this.updateDefHelmetPercentEnchant} />
+						<OpenPercentInput id="def_acc_percentage_enchant" onInput={this.updateDefAccPercentEnchant} />
+						<ClosedInput id="def_mastery_percentage_enchant" />						  
+						</tr>
+						<tr>
+						<RowHead text="def_flat" lang={this.state.language} />
+						<OpenInput id="def_weapon_flat_enchant" onInput={this.updateDefWeaponFlatEnchant} />
+						<OpenInput id="def_armor_flat_enchant" onInput={this.updateDefArmorFlatEnchant} />
+						<OpenInput id="def_helmet_flat_enchant" onInput={this.updateDefHelmetFlatEnchant} />
+						<OpenInput id="def_acc_flat_enchant" onInput={this.updateDefAccFlatEnchant} />
+						<ClosedInput id="def_mastery_flat_enchant" />	
+						</tr>		
+						<tr>
+						<RowHead text="mdef_percentage" lang={this.state.language} />
+						<OpenPercentInput id="mdef_weapon_percentage_enchant" onInput={this.updateMDefWeaponPercentEnchant} />
+						<OpenPercentInput id="mdef_armor_percentage_enchant" onInput={this.updateMDefArmorPercentEnchant} />
+						<OpenPercentInput id="mdef_helmet_percentage_enchant" onInput={this.updateMDefHelmetPercentEnchant} />
+						<OpenPercentInput id="mdef_acc_percentage_enchant" onInput={this.updateMDefAccPercentEnchant} />
+						<ClosedInput id="mdef_mastery_percentage_enchant" />						  
+						</tr>
+						<tr>
+						<RowHead text="mdef_flat" lang={this.state.language} />
+						<OpenInput id="mdef_weapon_flat_enchant" onInput={this.updateMDefWeaponFlatEnchant} />
+						<OpenInput id="mdef_armor_flat_enchant" onInput={this.updateMDefArmorFlatEnchant} />
+						<OpenInput id="mdef_helmet_flat_enchant" onInput={this.updateMDefHelmetFlatEnchant} />
+						<OpenInput id="mdef_acc_flat_enchant" onInput={this.updateMDefAccFlatEnchant} />
+						<ClosedInput id="mdef_mastery_flat_enchant" />	
+						</tr>			
+						<tr>
+						<RowHead text="skill_percentage" lang={this.state.language} />
+						<OpenPercentInput id="skill_weapon_percentage_enchant" onInput={this.updateSkillWeaponPercentEnchant} />
+						<OpenPercentInput id="skill_armor_percentage_enchant" onInput={this.updateSkillArmorPercentEnchant} />
+						<OpenPercentInput id="skill_helmet_percentage_enchant" onInput={this.updateSkillHelmetPercentEnchant} />
+						<OpenPercentInput id="skill_acc_percentage_enchant" onInput={this.updateSkillAccPercentEnchant} />
+						<ClosedInput id="skill_mastery_percentage_enchant" />						  
+						</tr>
+						<tr>
+						<RowHead text="skill_flat" lang={this.state.language} />
+						<OpenInput id="skill_weapon_flat_enchant" onInput={this.updateSkillWeaponFlatEnchant} />
+						<OpenInput id="skill_armor_flat_enchant" onInput={this.updateSkillArmorFlatEnchant} />
+						<OpenInput id="skill_helmet_flat_enchant" onInput={this.updateSkillHelmetFlatEnchant} />
+						<OpenInput id="skill_acc_flat_enchant" onInput={this.updateSkillAccFlatEnchant} />
+						<ClosedInput id="skill_mastery_flat_enchant" />	
+						</tr>	
+					</tbody>					  
+					</table>
+
+					<table class="table" id="unit_stat_others">
+						<thead class="thead-dark">
+							<tr>
+								<TableHead text="others" lang={this.state.language} />
+								<TableHead text="hp" lang={this.state.language} />
+								<TableHead text="atk" lang={this.state.language} />
+								<TableHead text="mag" lang={this.state.language} />
+								<TableHead text="def" lang={this.state.language} />
+								<TableHead text="mdef" lang={this.state.language} />													
+								<TableHead text="skill" lang={this.state.language} />													
+							</tr>
+						</thead>				
+						<tbody>
+							<tr>
+								<RowHead text="buffs" lang={this.state.language} />
+								<OpenPercentInput id="hp_buff" onInput={this.updateHPBuff} />
+								<OpenPercentInput id="atk_buff" onInput={this.updateAtkBuff} />
+								<OpenPercentInput id="mag_buff" onInput={this.updateMagBuff} />
+								<OpenPercentInput id="def_buff" onInput={this.updateDefBuff} />
+								<OpenPercentInput id="mdef_buff" onInput={this.updateMDefBuff} />
+								<OpenPercentInput id="skill_buff" onInput={this.updateSkillBuff} />							
+							</tr>
+							<tr>
+								<RowHead text="passives" lang={this.state.language} />
+								<OpenPercentInput id="hp_passive" onInput={this.updateHPPassive} />
+								<OpenPercentInput id="atk_passive" onInput={this.updateAtkPassive} />
+								<OpenPercentInput id="mag_passive" onInput={this.updateMagPassive} />
+								<OpenPercentInput id="def_passive" onInput={this.updateDefPassive} />
+								<OpenPercentInput id="mdef_passive" onInput={this.updateMDefPassive} />
+								<OpenPercentInput id="skill_passive" onInput={this.updateSkillPassive} />					  			  
+							</tr>
+							<tr id="unit_table_end">
+								<RowHead text="pvpmastery" lang={this.state.language} />
+								<OpenInput id="hp_pvp" onInput={this.updateHPPvP} />
+								<OpenInput id="atk_pvp" onInput={this.updateAtkPvP} />
+								<OpenInput id="mag_pvp" onInput={this.updateMagPvP} />
+								<OpenInput id="def_pvp" onInput={this.updateDefPvP} />
+								<OpenInput id="mdef_pvp" onInput={this.updateMDefPvP} />
+								<OpenInput id="skill_pvp" onInput={this.updateSkillPvP} />					  			  
+							</tr>						
+							<tr>
+								<RowHead text="enchant" lang={this.state.language} />	
+								<UnitEnchant onInput={this.updateEnchantType} lang={this.state.language} />
+							</tr>
+						</tbody>
+					</table>				
+				</div>
+			</div>			
 		)
 	}
 }

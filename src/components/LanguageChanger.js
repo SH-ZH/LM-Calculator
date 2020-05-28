@@ -12,7 +12,7 @@ class LanguageChanger extends React.Component {
   
 	render() {
 		return (
-			<div class="form-group">
+			<div class="form-group language_changer">
 			  <label for="lang">Choose Language:</label>
 			  <select class="form-control" id="lang" onChange={this.handleChange}>
 				<option value="en">English</option>

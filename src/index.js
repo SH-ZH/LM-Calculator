@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './stylesheet/index.css';
 import UnitStatCalculator from './components/UnitStatCalculator.js';
 import SoldierStatCalculator from './components/SoldierStatCalculator.js';
+import DamageCalculator from './components/DamageCalculator.js';
 import LanguageChanger from './components/LanguageChanger.js';
 import SiteTab from './components/SiteTab.js';
 
@@ -32,6 +33,9 @@ class Calculator extends React.Component {
 					<div  id="ssc" class="tab-pane fade" role="tabpanel">
 						<SoldierStatCalculator language={this.state.language} />
 					</div>
+					<div  id="dc" class="tab-pane fade" role="tabpanel">
+						<DamageCalculator language={this.state.language} />
+					</div>					
 				</div>
 			</div>
 		)

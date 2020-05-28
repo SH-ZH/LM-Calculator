@@ -12,7 +12,7 @@ class OpenInput extends React.Component {
 	
 	render() {		
 		return (
-			<td><input type="text" id={this.props.id} onChange={this.handleChange} ></input></td>
+			<td><input type="text" id={this.props.id} onChange={this.handleChange} defaultValue={this.props.defaultval}></input></td>
 		)
 	}	
 }

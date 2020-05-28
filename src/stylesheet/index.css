@@ -21,8 +21,27 @@ td {
 
 .notes {
 	padding: 20px;
-    margin: 30px;
-    border-style: solid;
+  margin: 30px;
+  border-style: solid;
+}
+
+.withPercentInput input {
+  float: left;
+  width: 70%;
+  text-align: right;
+  padding-right: 3%;
+}
+
+.withPercentInput .percent_sign {
+  float: left;
+}
+
+.nav-tabs {
+  margin-bottom: 10px;
+}
+
+.language_changer {
+  width: 30%;
 }
 
 body {
