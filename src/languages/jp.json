@@ -62,6 +62,7 @@
 	"bonus": "兵士補正 %",
 	"number_warning": "計算上、実際の数字より1低かったり高かったりします",
 	"soldier_page_hero_talent": "英雄の兵士強化タレント効果はバフ枠に入れてください",
+	"soldier_hero_level": "英雄がレベル70の場合の兵士ステータス",
 	"attacker": "攻撃側",
 	"defender": "防御側",
 	"attack": "攻撃",
