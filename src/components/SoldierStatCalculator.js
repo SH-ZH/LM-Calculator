@@ -375,6 +375,7 @@ class SoldierStatCalculator extends React.Component {
 					<Notes text="number_warning" lang={this.state.language} />
 					<Notes text="soldier_page_hero_talent" lang={this.state.language} />
 					<Notes text="soldier_hero_level" lang={this.state.language} />
+					<Notes text="soldier_hp_pvp_note" lang={this.state.language} />					
 				</div>				
 			</div>
 		)
