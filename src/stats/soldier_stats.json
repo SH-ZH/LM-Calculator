@@ -1,0 +1,464 @@
+{
+	"highland_warrior": {
+		"hp": 43,
+		"atk": 40,
+		"def": 22,
+		"mdef": 20,
+		"bonus": 30
+	},
+	"heavy_infantry": {
+		"hp": 43,
+		"atk": 40,
+		"def": 23,
+		"mdef": 19,
+		"bonus": 30
+	},
+	"berserker": {
+		"hp": 40,
+		"atk": 43,
+		"def": 22,
+		"mdef": 19,
+		"bonus": 30
+	},
+	"masked_maids": {
+		"hp": 36,
+		"atk": 40,
+		"def": 23,
+		"mdef": 23,
+		"bonus": 30
+	},
+	"orc_berserker": {
+		"hp": 43,
+		"atk": 40,
+		"def": 22,
+		"mdef": 17,
+		"bonus": 30
+	},
+	"dark_guards": {
+		"hp": 53,
+		"atk": 37,
+		"def": 23,
+		"mdef": 19,
+		"bonus": 30
+	},
+	"guardian_infantry": {
+		"hp": 53,
+		"atk": 37,
+		"def": 23,
+		"mdef": 19,
+		"bonus": 30
+	},
+	"cyclops": {
+		"hp": 48,
+		"atk": 43,
+		"def": 20,
+		"mdef": 19,
+		"bonus": 30
+	},
+	"cyborg": {
+		"hp": 40,
+		"atk": 43,
+		"def": 22,
+		"mdef": 19,
+		"bonus": 30
+	},
+	"princess_guards": {
+		"hp": 43,
+		"atk": 40,
+		"def": 22,
+		"mdef": 23,
+		"bonus": 30
+	},
+	"phalanx": {
+		"hp": 48,
+		"atk": 37,
+		"def": 26,
+		"mdef": 16,
+		"bonus": 30
+	},
+	"heavy_centurion": {
+		"hp": 48,
+		"atk": 37,
+		"def": 23,
+		"mdef": 17,
+		"bonus": 30
+	},
+	"amazon_champion": {
+		"hp": 40,
+		"atk": 43,
+		"def": 22,
+		"mdef": 20,
+		"bonus": 30
+	},
+	"lava_titan": {
+		"hp": 53,
+		"atk": 34,
+		"def": 26,
+		"mdef": 19,
+		"bonus": 30
+	},
+	"stone_colossus": {
+		"hp": 48,
+		"atk": 34,
+		"def": 28,
+		"mdef": 16,
+		"bonus": 30
+	},
+	"vanguard_lancer": {
+		"hp": 43,
+		"atk": 40,
+		"def": 23,
+		"mdef": 17,
+		"bonus": 30
+	},
+	"dark_centurion": {
+		"hp": 48,
+		"atk": 40,
+		"def": 26,
+		"mdef": 16,
+		"bonus": 30
+	},
+	"crystal_titan": {
+		"hp": 48,
+		"atk": 34,
+		"def": 22,
+		"mdef": 22,
+		"bonus": 30
+	},
+	"treant_guardian": {
+		"hp": 43,
+		"atk": 43,
+		"def": 23,
+		"mdef": 17,
+		"bonus": 30
+	},
+	"heavy_calvary": {
+		"hp": 40,
+		"atk": 43,
+		"def": 22,
+		"mdef": 17,
+		"bonus": 30
+	},
+	"dragoon": {
+		"hp": 43,
+		"atk": 43,
+		"def": 22,
+		"mdef": 19,
+		"bonus": 30
+	},
+	"templar_knights": {
+		"hp": 40,
+		"atk": 40,
+		"def": 22,
+		"mdef": 26,
+		"bonus": 30
+	},
+	"bone_dino": {
+		"hp": 36,
+		"atk": 45,
+		"def": 20,
+		"mdef": 19,
+		"bonus": 30
+	},
+	"hell_hound": {
+		"hp": 40,
+		"atk": 45,
+		"def": 20,
+		"mdef": 19,
+		"bonus": 30
+	},
+	"guardian_calvary": {
+		"hp": 43,
+		"atk": 40,
+		"def": 23,
+		"mdef": 17,
+		"bonus": 30
+	},
+	"heavensguard": {
+		"hp": 36,
+		"atk": 43,
+		"def": 22,
+		"mdef": 22,
+		"bonus": 30
+	},
+	"royal_calvary": {
+		"hp": 43,
+		"atk": 43,
+		"def": 23,
+		"mdef": 17,
+		"bonus": 30
+	},
+	"unicorn": {
+		"hp": 43,
+		"atk": 43,
+		"def": 22,
+		"mdef": 22,
+		"bonus": 30
+	},
+	"scorpion": {
+		"hp": 43,
+		"atk": 43,
+		"def": 23,
+		"mdef": 17,
+		"bonus": 30
+	},
+	"tide_master": {
+		"hp": 43,
+		"atk": 40,
+		"def": 23,
+		"mdef": 19,
+		"bonus": 30
+	},
+	"lizardman": {
+		"hp": 40,
+		"atk": 43,
+		"def": 22,
+		"mdef": 19,
+		"bonus": 30
+	},
+	"griffin_rider": {
+		"hp": 40,
+		"atk": 45,
+		"def": 20,
+		"mdef": 23,
+		"bonus": 30
+	},
+	"vampire_bats": {
+		"hp": 43,
+		"atk": 45,
+		"def": 22,
+		"mdef": 22,
+		"bonus": 30
+	},
+	"holy_pegasus": {
+		"hp": 40,
+		"atk": 43,
+		"def": 23,
+		"mdef": 23,
+		"bonus": 30
+	},
+	"lobster_behemoth": {
+		"hp": 43,
+		"atk": 37,
+		"def": 26,
+		"mdef": 16,
+		"bonus": 30
+	},
+	"leviathan": {
+		"hp": 43,
+		"atk": 40,
+		"def": 23,
+		"mdef": 19,
+		"bonus": 30
+	},
+	"angel": {
+		"hp": 43,
+		"atk": 43,
+		"def": 22,
+		"mdef": 26,
+		"bonus": 30
+	},
+	"gargoyles": {
+		"hp": 43,
+		"atk": 45,
+		"def": 22,
+		"mdef": 22,
+		"bonus": 30
+	},
+	"tide_elf": {
+		"hp": 43,
+		"atk": 37,
+		"def": 23,
+		"mdef": 22,
+		"bonus": 30
+	},
+	"steel_wing": {
+		"hp": 43,
+		"atk": 45,
+		"def": 22,
+		"mdef": 22,
+		"bonus": 30
+	},
+	"sky_archer": {
+		"hp": 36,
+		"atk": 40,
+		"def": 17,
+		"mdef": 23,
+		"bonus": 30
+	},
+	"high_elf": {
+		"hp": 34,
+		"atk": 40,
+		"def": 19,
+		"mdef": 23,
+		"bonus": 30
+	},
+	"dark_elf": {
+		"hp": 31,
+		"atk": 40,
+		"def": 17,
+		"mdef": 26,
+		"bonus": 30
+	},
+	"catapult": {
+		"hp": 31,
+		"atk": 37,
+		"def": 17,
+		"mdef": 20,
+		"bonus": 30
+	},
+	"bandit": {
+		"hp": 40,
+		"atk": 40,
+		"def": 20,
+		"mdef": 20,
+		"bonus": 30
+	},
+	"mist_dancer": {
+		"hp": 40,
+		"atk": 37,
+		"def": 22,
+		"mdef": 26,
+		"bonus": 30
+	},
+	"demon_hunter": {
+		"hp": 36,
+		"atk": 37,
+		"def": 20,
+		"mdef": 20,
+		"bonus": 30
+	},
+	"bolt_ranger": {
+		"hp": 40,
+		"atk": 37,
+		"def": 22,
+		"mdef": 19,
+		"bonus": 30
+	},
+	"firebrand_archer": {
+		"hp": 34,
+		"atk": 40,
+		"def": 19,
+		"mdef": 23,
+		"bonus": 30
+	},
+	"samurai": {
+		"hp": 40,
+		"atk": 40,
+		"def": 22,
+		"mdef": 22,
+		"bonus": 30
+	},
+	"shinobi": {
+		"hp": 36,
+		"atk": 43,
+		"def": 20,
+		"mdef": 20,
+		"bonus": 30
+	},
+	"goblin_knight": {
+		"hp": 36,
+		"atk": 43,
+		"def": 20,
+		"mdef": 20,
+		"bonus": 30
+	},
+	"dwarf": {
+		"hp": 34,
+		"atk": 37,
+		"def": 17,
+		"mdef": 20,
+		"bonus": 30
+	},
+	"holy_knight": {
+		"hp": 34,
+		"atk": 34,
+		"def": 19,
+		"mdef": 26,
+		"bonus": 30
+	},
+	"zealot": {
+		"hp": 36,
+		"atk": 40,
+		"def": 20,
+		"mdef": 20,
+		"bonus": 30
+	},
+	"bishop": {
+		"hp": 34,
+		"atk": 31,
+		"def": 19,
+		"mdef": 28,
+		"bonus": 30
+	},
+	"skeleton_knights": {
+		"hp": 43,
+		"atk": 40,
+		"def": 22,
+		"mdef": 19,
+		"bonus": 40
+	},
+	"fire_archer": {
+		"hp": 34,
+		"atk": 40,
+		"def": 20,
+		"mdef": 19,
+		"bonus": 40
+	},
+	"exorcist": {
+		"hp": 40,
+		"atk": 37,
+		"def": 22,
+		"mdef": 20,
+		"bonus": 30
+	},
+	"wizard": {
+		"hp": 34,
+		"atk": 37,
+		"def": 19,
+		"mdef": 23,
+		"bonus": 30
+	},
+	"sorceress": {
+		"hp": 34,
+		"atk": 40,
+		"def": 17,
+		"mdef": 28,
+		"bonus": 30
+	},
+	"shrine_maiden": {
+		"hp": 36,
+		"atk": 31,
+		"def": 17,
+		"mdef": 28,
+		"bonus": 30
+	},
+	"undead_knights": {
+		"hp": 40,
+		"atk": 40,
+		"def": 22,
+		"mdef": 20,
+		"bonus": 40
+	},
+	"crystal_warlock": {
+		"hp": 43,
+		"atk": 37,
+		"def": 22,
+		"mdef": 19,
+		"bonus": 30
+	},
+	"spider_demon": {
+		"hp": 43,
+		"atk": 37,
+		"def": 22,
+		"mdef": 22,
+		"bonus": 40
+	},
+	"forest_priest": {
+		"hp": 40,
+		"atk": 31,
+		"def": 20,
+		"mdef": 23,
+		"bonus": 30
+	}
+}

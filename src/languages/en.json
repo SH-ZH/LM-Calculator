@@ -62,6 +62,7 @@
 	"number_warning": "Due to the way calculations are done, the actual numbers may by off by 1",
 	"soldier_page_hero_talent": "Hero abilities that boost soldier stats go in the Buff slots",
 	"soldier_hero_level": "Stats are based off Level 70 Heroes",
+	"soldier_hp_pvp_note": "Add 40% in Buff slot for PvP HP",
 	"attacker": "Attacker",
 	"defender": "Defender",
 	"attack": "Attack",

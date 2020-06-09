@@ -5,6 +5,9 @@ import OpenPercentInput from './OpenPercentInput.js';
 import TableHead from './TableHead.js';
 import RowHead from './RowHead.js';
 import Notes from './Notes.js';
+import SoldiersList from './SoldiersList.js';
+
+let soldier_stats = require('../stats/soldier_stats.json');
 
 class SoldierStatCalculator extends React.Component {	
 	constructor(props) {
@@ -46,26 +49,28 @@ class SoldierStatCalculator extends React.Component {
 		this.updateSHeroBoostMDef = this.updateSHeroBoostMDef.bind(this);	
 		this.updateSTroopSkillMDef = this.updateSTroopSkillMDef.bind(this);	
 		this.updateSTechBonusMDef = this.updateSTechBonusMDef.bind(this);
-		this.updateSBuffMDef = this.updateSBuffMDef.bind(this);			
+		this.updateSBuffMDef = this.updateSBuffMDef.bind(this);		
+		
+		this.setSoldierStats = this.setSoldierStats.bind(this);
 		
 		this.state = {
 			language: this.props.language,
 			
 			// Soldier Base Numbers
 			s_base_hp: '',
-			s_flat_hp: '',
+			s_flat_hp: '55',
 			s_per_hp: '',
 			
 			s_base_atk: '',
-			s_flat_atk: '',
+			s_flat_atk: '55',
 			s_per_atk: '',
 
 			s_base_def: '',
-			s_flat_def: '',
+			s_flat_def: '33',
 			s_per_def: '',
 
 			s_base_mdef: '',
-			s_flat_mdef: '',
+			s_flat_mdef: '33',
 			s_per_mdef: '',	
 
 			s_bonus: '',
@@ -87,7 +92,7 @@ class SoldierStatCalculator extends React.Component {
 			s_hero_boost_mdef: '',
 			s_troop_skill_mdef: '',
 			s_tech_bonus_mdef: '',
-			s_buff_mdef: '',						
+			s_buff_mdef: '',	
 		}
 	}
 	
@@ -186,6 +191,16 @@ class SoldierStatCalculator extends React.Component {
 	updateSBuffMDef(stat) {
 		this.setState({ s_buff_mdef : stat });
 	}	
+
+	setSoldierStats(soldier) {
+		this.setState({
+			s_base_hp: soldier_stats[soldier].hp,
+			s_base_atk: soldier_stats[soldier].atk,
+			s_base_def: soldier_stats[soldier].def,
+			s_base_mdef: soldier_stats[soldier].mdef,
+			s_bonus: soldier_stats[soldier].bonus,			
+		})
+	}
 	
 
 	render() {
@@ -214,9 +229,12 @@ class SoldierStatCalculator extends React.Component {
 		return (
 			<div class="container">
 				<div class="row">
+					<SoldiersList onInput={this.setSoldierStats} lang={this.state.language} stype={this.state.soldier_type} />					
+				</div>
+				<div class="row">
 					<div class="col">					
 						<div class="table-responsive">
-							<table class="table" id="soldier_base_stats">
+							<table class="table" id="soldier_base_stats">							  
 							  <thead class="thead-dark">
 								<tr>
 									<TableHead text="status" lang={this.state.language} />
@@ -228,31 +246,31 @@ class SoldierStatCalculator extends React.Component {
 							  <tbody>
 								<tr>
 								  <RowHead text="hp" lang={this.state.language} />
-								  <OpenInput id="s_base_hp" onInput={this.updateSBaseHP} />
-								  <OpenInput id="s_flat_hp" onInput={this.updateSFlatHP} />
+								  <OpenInput id="s_base_hp" defaultval={this.state.s_base_hp} onInput={this.updateSBaseHP} />
+								  <OpenInput id="s_flat_hp" defaultval={this.state.s_flat_hp} onInput={this.updateSFlatHP} />
 								  <OpenPercentInput id="s_per_hp" onInput={this.updateSPerHP} />
 								</tr>
 								<tr>
 								  <RowHead text="atk" lang={this.state.language} />
-								  <OpenInput id="s_base_atk" onInput={this.updateSBaseAtk} />
-								  <OpenInput id="s_flat_atk" onInput={this.updateSFlatAtk} />
+								  <OpenInput id="s_base_atk" defaultval={this.state.s_base_atk} onInput={this.updateSBaseAtk} />
+								  <OpenInput id="s_flat_atk" defaultval={this.state.s_flat_atk} onInput={this.updateSFlatAtk} />
 								  <OpenPercentInput id="s_per_atk" onInput={this.updateSPerAtk} />								  
 								</tr>
 								<tr>
 								  <RowHead text="def" lang={this.state.language} />
-								  <OpenInput id="s_base_def" onInput={this.updateSBaseDef} />
-								  <OpenInput id="s_flat_def" onInput={this.updateSFlatDef} />
+								  <OpenInput id="s_base_def" defaultval={this.state.s_base_def} onInput={this.updateSBaseDef} />
+								  <OpenInput id="s_flat_def" defaultval={this.state.s_flat_def} onInput={this.updateSFlatDef} />
 								  <OpenPercentInput id="s_per_def" onInput={this.updateSPerDef} />								  
 								</tr>	
 								<tr>
 								  <RowHead text="mdef" lang={this.state.language} />
-								  <OpenInput id="s_base_mdef" onInput={this.updateSBaseMDef} />
-								  <OpenInput id="s_flat_mdef" onInput={this.updateSFlatMDef} />
+								  <OpenInput id="s_base_mdef" defaultval={this.state.s_base_mdef} onInput={this.updateSBaseMDef} />
+								  <OpenInput id="s_flat_mdef" defaultval={this.state.s_flat_mdef} onInput={this.updateSFlatMDef} />
 								  <OpenPercentInput id="s_per_mdef" onInput={this.updateSPerMDef} />								  
 								</tr>
 								<tr>
 								  <RowHead text="bonus" lang={this.state.language} />
-								  <OpenPercentInput id="s_bonus" onInput={this.updateSBonus} />
+								  <OpenPercentInput id="s_bonus" defaultval={this.state.s_bonus} onInput={this.updateSBonus} />
 								  <ClosedInput />
 								  <ClosedInput />								  
 								</tr>								
