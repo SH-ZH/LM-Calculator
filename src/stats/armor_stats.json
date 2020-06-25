@@ -1,0 +1,26 @@
+{
+	"cloth_a": {
+		"hp": 583,
+		"atk": 0,
+		"mag": 0,
+		"def": 54,
+		"mdef": 0,
+		"skill": 0
+	},
+	"light_a": {
+		"hp": 509,
+		"atk": 0,
+		"mag": 0,
+		"def": 59,
+		"mdef": 0,
+		"skill": 0
+	},
+	"heavy_a": {
+		"hp": 437,
+		"atk": 0,
+		"mag": 0,
+		"def": 65,
+		"mdef": 0,
+		"skill": 0
+	}
+}

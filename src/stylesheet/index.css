@@ -1,3 +1,7 @@
+.nav-tabs {
+  margin-bottom: 10px;
+}
+
 input { 
 	border: none;
 	width: 100%;
@@ -46,16 +50,28 @@ td {
   float: left;
 }
 
-.nav-tabs {
-  margin-bottom: 10px;
-}
-
-.language_changer {
+.language_changer, .soldier_changer {
   width: 30%;
 }
 
-.soldier_changer {
-  width: 30%;
+.preentriesContainer {
+  margin-bottom: 1rem;
+}
+
+.preentriesContainer .unit-preentries {
+  background-color: aliceblue;
+  height: 100%;
+}
+
+.unit-preentries .form-group {
+  margin: 10px;
+}
+
+.unit-preentries .singlemessage {
+  text-align: center;
+  font-weight: bold;
+  font-size: medium;
+  padding-top: 5%;
 }
 
 body {

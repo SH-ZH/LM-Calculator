@@ -19,6 +19,7 @@
 	"mastery": "精通",
 	"gear_skill": "装備スキル",
 	"gear_enchant": "装備エンチャント",
+	"preentry": "下から選択、もしくは手動で入力してください",
 	"hp_percentage": "体力 %",
 	"hp_flat": "体力",
 	"atk_percentage": "攻撃 %",

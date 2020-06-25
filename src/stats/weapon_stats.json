@@ -1,0 +1,74 @@
+{
+	"bow": {
+		"hp": 0,
+		"atk": 107,
+		"mag": 0,
+		"def": 0,
+		"mdef": 0,
+		"skill": 43
+	},
+	"dagger": {
+		"hp": 0,
+		"atk": 96,
+		"mag": 0,
+		"def": 0,
+		"mdef": 0,
+		"skill": 54
+	},
+	"sword_hp": {
+		"hp": 437,
+		"atk": 107,
+		"mag": 0,
+		"def": 0,
+		"mdef": 0,
+		"skill": 0
+	},
+	"sword_skill": {
+		"hp": 0,
+		"atk": 107,
+		"mag": 0,
+		"def": 0,
+		"mdef": 0,
+		"skill": 43
+	},
+	"axe": {
+		"hp": 364,
+		"atk": 118,
+		"mag": 0,
+		"def": 0,
+		"mdef": 0,
+		"skill": 0
+	},
+	"lance": {
+		"hp": 583,
+		"atk": 85,
+		"mag": 0,
+		"def": 0,
+		"mdef": 0,
+		"skill": 0
+	},
+	"hammer_atk": {
+		"hp": 583,
+		"atk": 85,
+		"mag": 0,
+		"def": 0,
+		"mdef": 0,
+		"skill": 0
+	},
+	"hammer_mag": {
+		"hp": 583,
+		"atk": 0,
+		"mag": 85,
+		"def": 0,
+		"mdef": 0,
+		"skill": 0
+	},
+	"staff": {
+		"hp": 437,
+		"atk": 0,
+		"mag": 107,
+		"def": 0,
+		"mdef": 0,
+		"skill": 0
+	}
+}

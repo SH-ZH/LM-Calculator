@@ -1,0 +1,82 @@
+{
+	"accessory_hpint": {
+		"hp": 509,
+		"atk": 0,
+		"mag": 75,
+		"def": 0,
+		"mdef": 0,
+		"skill": 0
+	},
+	"accessory_hpatk": {
+		"hp": 509,
+		"atk": 75,
+		"mag": 0,
+		"def": 0,
+		"mdef": 0,
+		"skill": 0
+	},
+	"accessory_hpdef": {
+		"hp": 509,
+		"atk": 0,
+		"mag": 0,
+		"def": 48,
+		"mdef": 0,
+		"skill": 0
+	},
+	"accessory_hpmdef": {
+		"hp": 509,
+		"atk": 0,
+		"mag": 0,
+		"def": 0,
+		"mdef": 48,
+		"skill": 0
+	},
+	"accessory_atkdef": {
+		"hp": 0,
+		"atk": 75,
+		"mag": 0,
+		"def": 48,
+		"mdef": 0,
+		"skill": 0
+	},
+	"accessory_atkint": {
+		"hp": 0,
+		"atk": 75,
+		"mag": 75,
+		"def": 0,
+		"mdef": 0,
+		"skill": 0
+	},
+	"accessory_atkskill": {
+		"hp": 0,
+		"atk": 75,
+		"mag": 0,
+		"def": 0,
+		"mdef": 0,
+		"skill": 37
+	},
+	"accessory_intmdef": {
+		"hp": 0,
+		"atk": 0,
+		"mag": 75,
+		"def": 0,
+		"mdef": 43,
+		"skill": 0
+	},
+	"accessory_bloodpact": {
+		"hp": 1102,
+		"atk": 0,
+		"mag": 0,
+		"def": 0,
+		"mdef": 0,
+		"skill": 0
+	},
+	"accessory_braceremblem": {
+		"hp": 0,
+		"atk": 0,
+		"mag": 0,
+		"def": 48,
+		"mdef": 43,
+		"skill": 0
+	}
+}
