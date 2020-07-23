@@ -7,11 +7,13 @@ import RowHead from './RowHead.js';
 import GearTableHeader from './GearTableHeader.js';
 import UnitEnchant from './UnitEnchant.js';
 import UnitCalcPreEntries from './UnitCalcPreEntries.js';
+import Notes from './Notes.js';
 
 const weapon_stats = require('../stats/weapon_stats.json');
 const armor_stats = require('../stats/armor_stats.json');
 const helmet_stats = require('../stats/helmet_stats.json');
 const accessory_stats = require('../stats/accessory_stats.json');
+const hero_stats = require('../stats/hero_stats.json');
 
 class UnitStatCalculator extends React.Component {
 	constructor(props) {
@@ -752,23 +754,13 @@ class UnitStatCalculator extends React.Component {
 
 	// Pre-Entries
 	setHeroStats(hero) {
-		/*
 		this.setState({
-			hp_weapon_stat: soldier_stats[weapon].hp,
-			atk_weapon_stat: soldier_stats[weapon].atk,
-			mag_weapon_stat: soldier_stats[weapon].def,
-			def_weapon_stat: soldier_stats[weapon].mdef,
-			mdef_weapon_stat: soldier_stats[weapon].bonus,	
-			skill_weapon_stat: soldier_stats[weapon].bonus
-		})
-		*/
-		this.setState({
-			hp_weapon_stat: 1,
-			atk_weapon_stat: 2,
-			mag_weapon_stat: 3,
-			def_weapon_stat: 4,
-			mdef_weapon_stat: 5,	
-			skill_weapon_stat: 6
+			hp_base: hero_stats[hero].hp,
+			atk_base: hero_stats[hero].atk,
+			mag_base: hero_stats[hero].int,
+			def_base: hero_stats[hero].def,
+			mdef_base: hero_stats[hero].mdef,	
+			skill_base: hero_stats[hero].skill
 		})
 	}
 
@@ -965,7 +957,7 @@ class UnitStatCalculator extends React.Component {
 								<tbody>
 									<tr>
 									<RowHead text="hp" lang={this.state.language} />
-									<OpenInput id="hp_unit" onInput={this.updateHP} />
+									<OpenInput id="hp_unit" defaultval={this.state.hp_base} onInput={this.updateHP} />
 									<ClosedInput id="hp_unit_green" value={hp_green} />
 									<ClosedInput id="hp_unit_total" value={hp_total} />
 									<ClosedInput id="hp_unit_battle" value={in_battle_hp.toFixed(1)} />
@@ -973,7 +965,7 @@ class UnitStatCalculator extends React.Component {
 									</tr>
 									<tr>
 									<RowHead text="atk" lang={this.state.language} />
-									<OpenInput id="atk_unit" onInput={this.updateAtk} />
+									<OpenInput id="atk_unit" defaultval={this.state.atk_base} onInput={this.updateAtk} />
 									<ClosedInput id="atk_unit_green" value={atk_green} />
 									<ClosedInput id="atk_unit_total" value={atk_total} />
 									<ClosedInput id="atk_unit_battle" value={in_battle_atk.toFixed(1)} />	
@@ -981,7 +973,7 @@ class UnitStatCalculator extends React.Component {
 									</tr>
 									<tr>
 									<RowHead text="mag" lang={this.state.language} />
-									<OpenInput id="mag_unit" onInput={this.updateMag} />				  
+									<OpenInput id="mag_unit" defaultval={this.state.mag_base} onInput={this.updateMag} />				  
 									<ClosedInput id="mag_unit_green" value={mag_green} />
 									<ClosedInput id="mag_unit_total" value={mag_total} />
 									<ClosedInput id="mag_unit_battle" value={in_battle_mag.toFixed(1)} />	
@@ -989,7 +981,7 @@ class UnitStatCalculator extends React.Component {
 									</tr>
 									<tr>
 									<RowHead text="def" lang={this.state.language} />
-									<OpenInput id="def_unit" onInput={this.updateDef} />	
+									<OpenInput id="def_unit" defaultval={this.state.def_base} onInput={this.updateDef} />	
 									<ClosedInput id="def_unit_green" value={def_green} />
 									<ClosedInput id="def_unit_total" value={def_total} />
 									<ClosedInput id="def_unit_battle" value={in_battle_def.toFixed(1)} />
@@ -997,7 +989,7 @@ class UnitStatCalculator extends React.Component {
 									</tr>			
 									<tr>
 									<RowHead text="mdef" lang={this.state.language} />
-									<OpenInput id="mdef_unit" onInput={this.updateMDef} />	
+									<OpenInput id="mdef_unit" defaultval={this.state.mdef_base} onInput={this.updateMDef} />	
 									<ClosedInput id="mdef_unit_green" value={mdef_green} />
 									<ClosedInput id="mdef_unit_total" value={mdef_total} />
 									<ClosedInput id="mdef_unit_battle" value={in_battle_mdef.toFixed(1)} />
@@ -1005,7 +997,7 @@ class UnitStatCalculator extends React.Component {
 									</tr>			
 									<tr>
 									<RowHead text="skill" lang={this.state.language} />
-									<OpenInput id="skill_unit" onInput={this.updateSkill} />	
+									<OpenInput id="skill_unit" defaultval={this.state.skill_base} onInput={this.updateSkill} />	
 									<ClosedInput id="skill_unit_green" value={skill_green} />
 									<ClosedInput id="skill_unit_total" value={skill_total} />
 									<ClosedInput id="skill_unit_battle" value={in_battle_skill.toFixed(1)} />					  			  
@@ -1270,6 +1262,9 @@ class UnitStatCalculator extends React.Component {
 						</tbody>
 					</table>				
 				</div>
+				<div class="notes">
+					<Notes text="more_info" lang={this.state.language} />			
+				</div>		
 			</div>			
 		)
 	}

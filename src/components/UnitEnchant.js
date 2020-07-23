@@ -23,6 +23,7 @@ class UnitEnchant extends React.Component {
 				<EnchantOptions etype="twored" lang={this.props.lang} />
 				<EnchantOptions etype="twoblue" lang={this.props.lang} />
 				<EnchantOptions etype="twogreen" lang={this.props.lang} />
+				<EnchantOptions etype="yellow" lang={this.props.lang} />
 			  </select>
 			</div>
 		)

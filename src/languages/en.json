@@ -45,6 +45,7 @@
 	"twored": "2 Red",
 	"twoblue": "2 Blue",
 	"twogreen": "2 Green",
+	"yellow": "Yellow",
 	"usc": "Unit Stat Calculator",
 	"ssc": "Soldier Stat Calculator",
 	"dc": "Damage Calculator",
@@ -93,5 +94,6 @@
 	"calv_adv_note": "・Calv -> Infantry = 1.2, Calv -> Lance = 0.7",
 	"priest_adv_note": "・Priest -> Monster = 1.8, Monster -> Priest = 0.6",
 	"archer_adv_note": "・Archer -> Flyer = 1.3",
-	"damage_note": "Calculated damage done, in-game announced damage done, and actual damage done will somewhat differ due to the way the game works"
+	"damage_note": "Calculated damage done, in-game announced damage done, and actual damage done will somewhat differ due to the way the game works",
+	"more_info": "Hero base stats based off of Wikigrisser, with corrections made to the heroes I can confirm. As Wikigrisser's numbers are not exactly correct, please feel free to send any heroes' correct full-bonded base stats to lmcalcappinfo@gmail.com"
 }

@@ -1,0 +1,1634 @@
+{
+	"aaron_marshal": {
+		"hp": 4747,
+		"atk": 412,
+		"int": 229,
+		"def": 346,
+		"mdef": 184,
+		"skill": 101
+	},
+	"alfred_sm": {
+		"hp": 4206,
+		"atk": 515,
+		"int": 223,
+		"def": 342,
+		"mdef": 261,
+		"skill": 111
+	},
+	"almeda_oracle": {
+		"hp": 3227,
+		"atk": 311,
+		"int": 491,
+		"def": 230,
+		"mdef": 408,
+		"skill": 81
+	},
+	"almeda_martyr": {
+		"hp": 3378,
+		"atk": 331,
+		"int": 491,
+		"def": 250,
+		"mdef": 399,
+		"skill": 81
+	},
+	"alte_dm": {
+		"hp": "4314",
+		"atk": "588",
+		"int": "268",
+		"def": "312",
+		"mdef": "348",
+		"skill": "179"
+	},
+	"alte_gm": {
+		"hp": "4934",
+		"atk": "531",
+		"int": "268",
+		"def": "361",
+		"mdef": "255",
+		"skill": "123"
+	},
+	"alustriel_ranger": {
+		"hp": "3418",
+		"atk": "563",
+		"int": "244",
+		"def": "253",
+		"mdef": "319",
+		"skill": "233"
+	},
+	"alustriel_wc": {
+		"hp": "3418",
+		"atk": "591",
+		"int": "244",
+		"def": "244",
+		"mdef": "283",
+		"skill": "233"
+	},
+	"angelica_creator": {
+		"hp": "2752",
+		"atk": "315",
+		"int": "429",
+		"def": "241",
+		"mdef": "241",
+		"skill": "109"
+	},
+	"angelina_dm": {
+		"hp": "4265",
+		"atk": "577",
+		"int": "247",
+		"def": "313",
+		"mdef": "339",
+		"skill": "178"
+	},
+	"angelina_sm": {
+		"hp": "4586",
+		"atk": "547",
+		"int": "247",
+		"def": "339",
+		"mdef": "283",
+		"skill": "124"
+	},
+	"anna_oracle": {
+		"hp": "3007",
+		"atk": "307",
+		"int": "380",
+		"def": "225",
+		"mdef": "373",
+		"skill": "78"
+	},
+	"bern_brave": {
+		"hp": "5039",
+		"atk": "519",
+		"int": "265",
+		"def": "403",
+		"mdef": "281",
+		"skill": "108"
+	},	
+	"bern_emperor": {
+		"hp": "4723",
+		"atk": "546",
+		"int": "265",
+		"def": "380",
+		"mdef": "281",
+		"skill": "143"
+	},
+	"betty_queen": {
+		"hp": "4980",
+		"atk": "527",
+		"int": "249",
+		"def": "387",
+		"mdef": "305",
+		"skill": "104"
+	},	
+	"betty_swordsman": {
+		"hp": "4665",
+		"atk": "555",
+		"int": "249",
+		"def": "364",
+		"mdef": "305",
+		"skill": "137"
+	},
+	"bozel_dp": {
+		"hp": "4096",
+		"atk": "287",
+		"int": "407",
+		"def": "288",
+		"mdef": "377",
+		"skill": "88"
+	},
+	"bozel_dl": {
+		"hp": "4737",
+		"atk": "287",
+		"int": "407",
+		"def": "309",
+		"mdef": "387",
+		"skill": "88"
+	},
+	"cherie_dm": {
+		"hp": "3715",
+		"atk": "598",
+		"int": "213",
+		"def": "282",
+		"mdef": "329",
+		"skill": "208"
+	},
+	"cherie_hm": {
+		"hp": "3715",
+		"atk": "540",
+		"int": "234",
+		"def": "271",
+		"mdef": "275",
+		"skill": "309"
+	},
+	"chris_princess": {
+		"hp": "3306",
+		"atk": "327",
+		"int": "472",
+		"def": "266",
+		"mdef": "378",
+		"skill": "82"
+	},
+	"chris_valkryie": {
+		"hp": "4012",
+		"atk": "300",
+		"int": "500",
+		"def": "296",
+		"mdef": "347",
+		"skill": "95"
+	},
+	"claret_dm": {
+		"hp": "4100",
+		"atk": "607",
+		"int": "216",
+		"def": "298",
+		"mdef": "325",
+		"skill": "182"
+	},
+	"claret_ss": {
+		"hp": "4419",
+		"atk": "607",
+		"int": "237",
+		"def": "298",
+		"mdef": "290",
+		"skill": "234"
+	},
+	"claret_dm_5": {
+		"hp": "3894",
+		"atk": "572",
+		"int": "202",
+		"def": "282",
+		"mdef": "308",
+		"skill": "171" 
+	},
+	"claret_ss_5": {
+		"hp": "4193",
+		"atk": "572",
+		"int": "222",
+		"def": "282",
+		"mdef": "275",
+		"skill": "220"
+	},
+	"d_hm": {
+		"hp": "3969",
+		"atk": "545",
+		"int": "241",
+		"def": "280",
+		"mdef": "260",
+		"skill": "296"
+	},	
+	"d_rk": {
+		"hp": "4274",
+		"atk": "574",
+		"int": "219",
+		"def": "291",
+		"mdef": "280",
+		"skill": "152"
+	},	
+	"dios_bm": {
+		"hp": "3244",
+		"atk": "415",
+		"int": "241",
+		"def": "228",
+		"mdef": "310",
+		"skill": "183"
+	},
+	"egbert_dc": {
+		"hp": "3451",
+		"atk": "274",
+		"int": "465",
+		"def": "272",
+		"mdef": "347",
+		"skill": "73"
+	},
+	"egbert_hermit": {
+		"hp": "3609",
+		"atk": "302",
+		"int": "437",
+		"def": "272",
+		"mdef": "325",
+		"skill": "84"
+	},
+	"elwin_gm": {
+		"hp": "5072",
+		"atk": "537",
+		"int": "231",
+		"def": "374",
+		"mdef": "214",
+		"skill": "115"
+	},
+	"elwin_hero": {
+		"hp": "4769",
+		"atk": "565",
+		"int": "254",
+		"def": "351",
+		"mdef": "266",
+		"skill": "152"
+	},
+	"emerick_gm": {
+		"hp": "4946",
+		"atk": "452",
+		"int": "247",
+		"def": "364",
+		"mdef": "206",
+		"skill": "89"
+	},
+	"emerick_rk": {
+		"hp": "4353",
+		"atk": "476",
+		"int": "247",
+		"def": "316",
+		"mdef": "236",
+		"skill": "99"
+	},
+	"emilia_rv": {
+		"hp": "4535",
+		"atk": "371",
+		"int": "295",
+		"def": "388",
+		"mdef": "325",
+		"skill": "88"
+	},
+	"emilia_templar": {
+		"hp": "4856",
+		"atk": "371",
+		"int": "295",
+		"def": "365",
+		"mdef": "351",
+		"skill": "88"
+	},
+	"estelle_db": {
+		"hp": "5289",
+		"atk": "474",
+		"int": "231",
+		"def": "408",
+		"mdef": "194",
+		"skill": "94"
+	},
+	"estelle_wm": {
+		"hp": "4966",
+		"atk": "532",
+		"int": "231",
+		"def": "399",
+		"mdef": "218",
+		"skill": "110"
+	},
+	"fera_wq": {
+		"hp": "3725",
+		"atk": "489",
+		"int": "295",
+		"def": "259",
+		"mdef": "247",
+		"skill": "282"
+	},
+	"fera_ds": {
+		"hp": "4023",
+		"atk": "489",
+		"int": "295",
+		"def": "269",
+		"mdef": "266",
+		"skill": "221"
+	},
+	"freya_rv": {
+		"hp": "5120",
+		"atk": "402",
+		"int": "308",
+		"def": "382",
+		"mdef": "205",
+		"skill": "80"
+	},
+	"freya_valkyrie": {
+		"hp": "4498",
+		"atk": "320",
+		"int": "478",
+		"def": "329",
+		"mdef": "312",
+		"skill": "93"
+	},
+	"gerold_dk": {
+		"hp": "3877",
+		"atk": "523",
+		"int": "411",
+		"def": "298",
+		"mdef": "276",
+		"skill": "116"
+	},
+	"gerold_re": {
+		"hp": "3414",
+		"atk": "494",
+		"int": "473",
+		"def": "266",
+		"mdef": "333",
+		"skill": "89"
+	},
+	"gizalof_ms": {
+		"hp": "3506",
+		"atk": "305",
+		"int": "478",
+		"def": "281",
+		"mdef": "311",
+		"skill": "103"
+	},
+	"gizalof_mm": {
+		"hp": "3798",
+		"atk": "254",
+		"int": "507",
+		"def": "262",
+		"mdef": "357",
+		"skill": "103"
+	},
+	"grenier_gm": {
+		"hp": "4938",
+		"atk": "489",
+		"int": "224",
+		"def": "372",
+		"mdef": "218",
+		"skill": "89"
+	},
+	"grenier_bk": {
+		"hp": "4064",
+		"atk": "489",
+		"int": "246",
+		"def": "284",
+		"mdef": "304",
+		"skill": "155"
+	},
+	"hein_martyr": {
+		"hp": "3263",
+		"atk": "305",
+		"int": "491",
+		"def": "253",
+		"mdef": "369",
+		"skill": "79"
+	},
+	"hein_wizard": {
+		"hp": "3117",
+		"atk": "254",
+		"int": "520",
+		"def": "234",
+		"mdef": "369",
+		"skill": "79"
+	},
+	"hiei_jm": {
+		"hp": "3439",
+		"atk": "540",
+		"int": "240",
+		"def": "298",
+		"mdef": "281",
+		"skill": "322"
+	},
+	"hiei_df": {
+		"hp": "3821",
+		"atk": "568",
+		"int": "240",
+		"def": "334",
+		"mdef": "302",
+		"skill": "197"
+	},
+	"imelda_bishop": {
+		"hp": "3201",
+		"atk": "335",
+		"int": "433",
+		"def": "240",
+		"mdef": "367",
+		"skill": "80"
+	},
+	"imelda_queen": {
+		"hp": "3201",
+		"atk": "279",
+		"int": "496",
+		"def": "240",
+		"mdef": "359",
+		"skill": "80"
+	},
+	"iris_koubu": {
+		"hp": "3480",
+		"atk": "283",
+		"int": "470",
+		"def": "274",
+		"mdef": "311",
+		"skill": "109"
+	},
+	"iris_dk": {
+		"hp": "3045",
+		"atk": "308",
+		"int": "435",
+		"def": "244",
+		"mdef": "373",
+		"skill": "83"
+	},
+	"jessica_wizard": {
+		"hp": "2895",
+		"atk": "238",
+		"int": "465",
+		"def": "216",
+		"mdef": "364",
+		"skill": "75"
+	},	
+	"joshua_bf": {
+		"hp": "3772",
+		"atk": "561",
+		"int": "236",
+		"def": "291",
+		"mdef": "277",
+		"skill": "228"
+	},	
+	"joshua_shadow": {
+		"hp": "3772",
+		"atk": "533",
+		"int": "236",
+		"def": "280",
+		"mdef": "256",
+		"skill": "331"
+	},	
+	"juglar_bahamut": {
+		"hp": "5379",
+		"atk": "406",
+		"int": "322",
+		"def": "279",
+		"mdef": "367",
+		"skill": "122"
+	},	
+	"juglar_behemoth": {
+		"hp": "5736",
+		"atk": "496",
+		"int": "267",
+		"def": "290",
+		"mdef": "321",
+		"skill": "108"
+	},	
+	"juglar_hydra": {
+		"hp": "5379",
+		"atk": "406",
+		"int": "243",
+		"def": "313",
+		"mdef": "282",
+		"skill": "122"
+	},	
+	"kazuma_df": {
+		"hp": "4585",
+		"atk": "501",
+		"int": "211",
+		"def": "354",
+		"mdef": "209",
+		"skill": "94"
+	},	
+	"kazuma_dsw": {
+		"hp": "4208",
+		"atk": "528",
+		"int": "232",
+		"def": "333",
+		"mdef": "259",
+		"skill": "124"
+	},	
+	"keith_dm": {
+		"hp": "3613",
+		"atk": "479",
+		"int": "227",
+		"def": "260",
+		"mdef": "307",
+		"skill": "150"
+	},	
+	"kirikaze_hm": {
+		"hp": "3705",
+		"atk": "520",
+		"int": "241",
+		"def": "264",
+		"mdef": "240",
+		"skill": "286"
+	},	
+	"kirikaze_ss": {
+		"hp": "3980",
+		"atk": "577",
+		"int": "241",
+		"def": "274",
+		"mdef": "259",
+		"skill": "246"
+	},	
+	"klose_queen": {
+		"hp": "3657",
+		"atk": "300",
+		"int": "541",
+		"def": "294",
+		"mdef": "299",
+		"skill": "149"
+	},	
+	"klose_valkyrie": {
+		"hp": "3939",
+		"atk": "300",
+		"int": "515",
+		"def": "304",
+		"mdef": "323",
+		"skill": "100"
+	},	
+	"kurama_past": {
+		"hp": "3457",
+		"atk": "258",
+		"int": "571",
+		"def": "289",
+		"mdef": "377",
+		"skill": "113"
+	},	
+	"kurama_rose": {
+		"hp": "3444",
+		"atk": "258",
+		"int": "544",
+		"def": "268",
+		"mdef": "377",
+		"skill": "87"
+	},	
+	"lambda_wizard": {
+		"hp": "3150",
+		"atk": "252",
+		"int": "544",
+		"def": "222",
+		"mdef": "413",
+		"skill": "102"
+	},	
+	"lambda_fs": {
+		"hp": "3150",
+		"atk": "303",
+		"int": "544",
+		"def": "222",
+		"mdef": "389",
+		"skill": "102"
+	},	
+	"lana_dp": {
+		"hp": "3299",
+		"atk": "258",
+		"int": "547",
+		"def": "242",
+		"mdef": "397",
+		"skill": "94"
+	},	
+	"lana_martyr": {
+		"hp": "3460",
+		"atk": "311",
+		"int": "516",
+		"def": "261",
+		"mdef": "397",
+		"skill": "94"
+	},	
+	"lance_rk": {
+		"hp": "4127",
+		"atk": "515",
+		"int": "247",
+		"def": "268",
+		"mdef": "278",
+		"skill": "130"
+	},	
+	"lance_dm": {
+		"hp": "3840",
+		"atk": "543",
+		"int": "247",
+		"def": "268",
+		"mdef": "311",
+		"skill": "169"
+	},	
+	"landius_gm": {
+		"hp": "5286",
+		"atk": "527",
+		"int": "243",
+		"def": "336",
+		"mdef": "208",
+		"skill": "116"
+	},	
+	"landius_rk": {
+		"hp": "4979",
+		"atk": "555",
+		"int": "243",
+		"def": "292",
+		"mdef": "262",
+		"skill": "130"
+	},	
+	"lanford_km": {
+		"hp": "4636",
+		"atk": "543",
+		"int": "243",
+		"def": "304",
+		"mdef": "273",
+		"skill": "145"
+	},	
+	"lanford_ss": {
+		"hp": "4636",
+		"atk": "573",
+		"int": "267",
+		"def": "304",
+		"mdef": "273",
+		"skill": "247"
+	},	
+	"ledin_templar": {
+		"hp": "5236",
+		"atk": "428",
+		"int": "295",
+		"def": "347",
+		"mdef": "311",
+		"skill": "101"
+	},	
+	"ledin_king": {
+		"hp": "5548",
+		"atk": "491",
+		"int": "267",
+		"def": "371",
+		"mdef": "275",
+		"skill": "115"
+	},	
+	"leon_rk": {
+		"hp": "4637",
+		"atk": "581",
+		"int": "229",
+		"def": "277",
+		"mdef": "276",
+		"skill": "128"
+	},	
+	"leon_sk": {
+		"hp": "4320",
+		"atk": "612",
+		"int": "229",
+		"def": "266",
+		"mdef": "248",
+		"skill": "128"
+	},	
+	"leonhardt_asura": {
+		"hp": "4396",
+		"atk": "571",
+		"int": "290",
+		"def": "323",
+		"mdef": "276",
+		"skill": "128"
+	},	
+	"leonhardt_blades": {
+		"hp": "4697",
+		"atk": "542",
+		"int": "290",
+		"def": "348",
+		"mdef": "297",
+		"skill": "115"
+	},	
+	"lester_sk": {
+		"hp": "4087",
+		"atk": "447",
+		"int": "225",
+		"def": "302",
+		"mdef": "231",
+		"skill": "101"
+	},	
+	"leticia_km": {
+		"hp": "3831",
+		"atk": "451",
+		"int": "223",
+		"def": "263",
+		"mdef": "234",
+		"skill": "115"
+	},	
+	"lewin_swordsman": {
+		"hp": "3980",
+		"atk": "497",
+		"int": "234",
+		"def": "291",
+		"mdef": "252",
+		"skill": "135"
+	},	
+	"liana_hermit": {
+		"hp": "3981",
+		"atk": "290",
+		"int": "437",
+		"def": "272",
+		"mdef": "369",
+		"skill": "101"
+	},	
+	"liana_prophet": {
+		"hp": "3811",
+		"atk": "316",
+		"int": "402",
+		"def": "272",
+		"mdef": "403",
+		"skill": "87"
+	},	
+	"liffany_hermit": {
+		"hp": "3262",
+		"atk": "278",
+		"int": "469",
+		"def": "239",
+		"mdef": "345",
+		"skill": "95"
+	},	
+	"liffany_wizard": {
+		"hp": "3119",
+		"atk": "253",
+		"int": "498",
+		"def": "239",
+		"mdef": "368",
+		"skill": "82"
+	},	
+	"listel_be": {
+		"hp": "4185",
+		"atk": "321",
+		"int": "343",
+		"def": "330",
+		"mdef": "375",
+		"skill": "117"
+	},	
+	"listell_dg": {
+		"hp": "4506",
+		"atk": "321",
+		"int": "343",
+		"def": "341",
+		"mdef": "353",
+		"skill": "102"
+	},	
+	"listel_be_5": {
+		"hp": "3950",
+		"atk": "300",
+		"int": "320",
+		"def": "314",
+		"mdef": "355",
+		"skill": "110"
+	},	
+	"listell_dg_5": {
+		"hp": "4251",
+		"atk": "300",
+		"int": "320",
+		"def": "325",
+		"mdef": "333",
+		"skill": "96"
+	},		
+	"luna_bm": {
+		"hp": "4013",
+		"atk": "476",
+		"int": "290",
+		"def": "261",
+		"mdef": "361",
+		"skill": "186"
+	},	
+	"luna_pm": {
+		"hp": "4630",
+		"atk": "476",
+		"int": "320",
+		"def": "326",
+		"mdef": "395",
+		"skill": "144"
+	},	
+	"matthew_dm": {
+		"hp": "4155",
+		"atk": "546",
+		"int": "228",
+		"def": "290",
+		"mdef": "306",
+		"skill": "168"
+	},	
+	"matthew_ranger": {
+		"hp": "4460",
+		"atk": "558",
+		"int": "250",
+		"def": "313",
+		"mdef": "264",
+		"skill": "154"
+	},	
+	"matthew_shadow": {
+		"hp": "3703",
+		"atk": "531",
+		"int": "250",
+		"def": "260",
+		"mdef": "296",
+		"skill": "195"
+	},	
+	"matthew_sm": {
+		"hp": "4107",
+		"atk": "553",
+		"int": "228",
+		"def": "290",
+		"mdef": "255",
+		"skill": "129"
+	},	
+	"matthew_hero": {
+		"hp": "4107",
+		"atk": "504",
+		"int": "250",
+		"def": "279",
+		"mdef": "245",
+		"skill": "279"
+	},	
+	"narm_pm": {
+		"hp": "3994",
+		"atk": "482",
+		"int": "266",
+		"def": "290",
+		"mdef": "367",
+		"skill": "161"
+	},	
+	"narm_ranger": {
+		"hp": "3299",
+		"atk": "482",
+		"int": "241",
+		"def": "239",
+		"mdef": "337",
+		"skill": "205"
+	},	
+	"olivier_bard": {
+		"hp": "3869",
+		"atk": "475",
+		"int": "241",
+		"def": "273",
+		"mdef": "313",
+		"skill": "123"
+	},	
+	"olivier_ep": {
+		"hp": "3448",
+		"atk": "503",
+		"int": "241",
+		"def": "244",
+		"mdef": "313",
+		"skill": "189"
+	},	
+	"omega_hm": {
+		"hp": "3963",
+		"atk": "541",
+		"int": "241",
+		"def": "271",
+		"mdef": "263",
+		"skill": "299"
+	},	
+	"omega_ranger": {
+		"hp": "3498",
+		"atk": "541",
+		"int": "241",
+		"def": "252",
+		"mdef": "319",
+		"skill": "231"
+	},	
+	"pierre_sm": {
+		"hp": "4039",
+		"atk": "454",
+		"int": "203",
+		"def": "322",
+		"mdef": "213",
+		"skill": "94"
+	},	
+	"rachel_ac": {
+		"hp": "3838",
+		"atk": "267",
+		"int": "516",
+		"def": "239",
+		"mdef": "423",
+		"skill": "117"
+	},	
+	"rachel_oracle": {
+		"hp": "3355",
+		"atk": "321",
+		"int": "487",
+		"def": "248",
+		"mdef": "423",
+		"skill": "90"
+	},		
+	"rainforce_cn": {
+		"hp": "3964",
+		"atk": "532",
+		"int": "290",
+		"def": "290",
+		"mdef": "270",
+		"skill": "306"
+	},	
+	"rainforce_ss": {
+		"hp": "4274",
+		"atk": "589",
+		"int": "290",
+		"def": "301",
+		"mdef": "290",
+		"skill": "264"
+	},	
+	"renne_ad": {
+		"hp": "3583",
+		"atk": "258",
+		"int": "573",
+		"def": "283",
+		"mdef": "374",
+		"skill": "123"
+	},	
+	"renne_wizard": {
+		"hp": "3131",
+		"atk": "258",
+		"int": "545",
+		"def": "263",
+		"mdef": "374",
+		"skill": "94"
+	},	
+	"rodga_shadow": {
+		"hp": "3371",
+		"atk": "458",
+		"int": "236",
+		"def": "252",
+		"mdef": "244",
+		"skill": "270"
+	},	
+	"sakura_evilslayer": {
+		"hp": "4434",
+		"atk": "600",
+		"int": "278",
+		"def": "304",
+		"mdef": "263",
+		"skill": "247"
+	},	
+	"sakura_koubu": {
+		"hp": "4434",
+		"atk": "570",
+		"int": "253",
+		"def": "304",
+		"mdef": "263",
+		"skill": "142"
+	},	
+	"scott_km": {
+		"hp": "3641",
+		"atk": "459",
+		"int": "243",
+		"def": "288",
+		"mdef": "225",
+		"skill": "104"
+	},	
+	"serena_rv": {
+		"hp": "5168",
+		"atk": "432",
+		"int": "219",
+		"def": "395",
+		"mdef": "194",
+		"skill": "80"
+	},	
+	"serena_gc": {
+		"hp": "4859",
+		"atk": "459",
+		"int": "241",
+		"def": "386",
+		"mdef": "264",
+		"skill": "93"
+	},	
+	"shelfaniel_empress": {
+		"hp": "3306",
+		"atk": "303",
+		"int": "530",
+		"def": "225",
+		"mdef": "397",
+		"skill": "98"
+	},	
+	"shelfaniel_wizard": {
+		"hp": "3306",
+		"atk": "252",
+		"int": "530",
+		"def": "225",
+		"mdef": "421",
+		"skill": "98"
+	},	
+	"sigma_ranger": {
+		"hp": "3223",
+		"atk": "557",
+		"int": "241",
+		"def": "247",
+		"mdef": "311",
+		"skill": "230"
+	},	
+	"sigma_vindicator": {
+		"hp": "3378",
+		"atk": "585",
+		"int": "241",
+		"def": "266",
+		"mdef": "257",
+		"skill": "182"
+	},	
+	"silverwolf_ranger": {
+		"hp": "3165",
+		"atk": "509",
+		"int": "229",
+		"def": "231",
+		"mdef": "311",
+		"skill": "236"
+	},	
+	"silverwolf_shadow": {
+		"hp": "3556",
+		"atk": "509",
+		"int": "229",
+		"def": "249",
+		"mdef": "255",
+		"skill": "302"
+	},	
+	"sonya_sm": {
+		"hp": "3480",
+		"atk": "554",
+		"int": "256",
+		"def": "278",
+		"mdef": "255",
+		"skill": "117"
+	},	
+	"sonya_uc": {
+		"hp": "3480",
+		"atk": "380",
+		"int": "375",
+		"def": "288",
+		"mdef": "283",
+		"skill": "117"
+	},	
+	"sophia_prophet": {
+		"hp": "3113",
+		"atk": "300",
+		"int": "426",
+		"def": "239",
+		"mdef": "403",
+		"skill": "76"
+	},	
+	"sophia_martyr": {
+		"hp": "3265",
+		"atk": "300",
+		"int": "460",
+		"def": "258",
+		"mdef": "394",
+		"skill": "76"
+	},	
+	"sumire_koubu": {
+		"hp": "4712",
+		"atk": "558",
+		"int": "229",
+		"def": "327",
+		"mdef": "241",
+		"skill": "118"
+	},	
+	"sumire_ts": {
+		"hp": "5024",
+		"atk": "558",
+		"int": "229",
+		"def": "373",
+		"mdef": "190",
+		"skill": "105"
+	},	
+	"tiaris_hk": {
+		"hp": "3286",
+		"atk": "330",
+		"int": "437",
+		"def": "269",
+		"mdef": "403",
+		"skill": "94"
+	},	
+	"tiaris_uc": {
+		"hp": "3573",
+		"atk": "303",
+		"int": "474",
+		"def": "300",
+		"mdef": "344",
+		"skill": "123"
+	},
+	"toguro_100": {
+		"hp": "3870",
+		"atk": "619",
+		"int": "229",
+		"def": "309",
+		"mdef": "269",
+		"skill": "119"
+	},	
+	"toguro_sword": {
+		"hp": "4253",
+		"atk": "558",
+		"int": "229",
+		"def": "309",
+		"mdef": "258",
+		"skill": "119"
+	},	
+	"vargas_brave": {
+		"hp": "4941",
+		"atk": "444",
+		"int": "227",
+		"def": "398",
+		"mdef": "244",
+		"skill": "89"
+	},	
+	"vargas_rv": {
+		"hp": "5250",
+		"atk": "418",
+		"int": "207",
+		"def": "407",
+		"mdef": "177",
+		"skill": "76"
+	},	
+	"varna_dm": {
+		"hp": "3893",
+		"atk": "549",
+		"int": "243",
+		"def": "259",
+		"mdef": "311",
+		"skill": "180"
+	},	
+	"varna_ranger": {
+		"hp": "3451",
+		"atk": "497",
+		"int": "267",
+		"def": "231",
+		"mdef": "311",
+		"skill": "205"
+	},	
+	"wiler_prophet": {
+		"hp": "2713",
+		"atk": "312",
+		"int": "504",
+		"def": "211",
+		"mdef": "310",
+		"skill": "80"
+	},	
+	"wiler_tactician": {
+		"hp": "2844",
+		"atk": "312",
+		"int": "545",
+		"def": "228",
+		"mdef": "303",
+		"skill": "80"
+	},	
+	"yjessica_martyr": {
+		"hp": "3337",
+		"atk": "311",
+		"int": "520",
+		"def": "253",
+		"mdef": "410",
+		"skill": "94"
+	},	
+	"yjessica_wizard": {
+		"hp": "3179",
+		"atk": "258",
+		"int": "550",
+		"def": "234",
+		"mdef": "410",
+		"skill": "94"
+	},	
+	"yulia_gb": {
+		"hp": "4615",
+		"atk": "267",
+		"int": "571",
+		"def": "313",
+		"mdef": "323",
+		"skill": "175"
+	},	
+	"yulia_princess": {
+		"hp": "4288",
+		"atk": "295",
+		"int": "571",
+		"def": "278",
+		"mdef": "335",
+		"skill": "175"
+	},		
+	"yusuke_dk": {
+		"hp": "4177",
+		"atk": "587",
+		"int": "258",
+		"def": "319",
+		"mdef": "327",
+		"skill": "165"
+	},	
+	"yusuke_sd": {
+		"hp": "3788",
+		"atk": "557",
+		"int": "258",
+		"def": "319",
+		"mdef": "351",
+		"skill": "165"
+	},	
+	"zerida_ac": {
+		"hp": "4026",
+		"atk": "562",
+		"int": "240",
+		"def": "324",
+		"mdef": "302",
+		"skill": "206"
+	},	
+	"zerida_shadow": {
+		"hp": "3723",
+		"atk": "534",
+		"int": "240",
+		"def": "288",
+		"mdef": "281",
+		"skill": "331"
+	},	
+	"akaya_spiritualist": {
+		"hp": "3513",
+		"atk": "455",
+		"int": "532",
+		"def": "267",
+		"mdef": "337",
+		"skill": "209"
+	},	
+	"akaya_saintess": {
+		"hp": "3812",
+		"atk": "552",
+		"int": "464",
+		"def": "287",
+		"mdef": "281",
+		"skill": "146"
+	},	
+	"kom_mk": {
+		"hp": "3713",
+		"atk": "290",
+		"int": "551",
+		"def": "317",
+		"mdef": "283",
+		"skill": "125"
+	},	
+	"kom_um": {
+		"hp": "3713",
+		"atk": "290",
+		"int": "495",
+		"def": "317",
+		"mdef": "303",
+		"skill": "125"
+	},	
+	"brenda_god": {
+		"hp": "4922",
+		"atk": "590",
+		"int": "233",
+		"def": "346",
+		"mdef": "217",
+		"skill": "172"
+	},	
+	"brenda_rk": {
+		"hp": "4610",
+		"atk": "590",
+		"int": "233",
+		"def": "320",
+		"mdef": "270",
+		"skill": "130"
+	},	
+	"laird_km": {
+		"hp": "0",
+		"atk": "0",
+		"int": "0",
+		"def": "0",
+		"mdef": "0",
+		"skill": "0"
+	},	
+	"oliver_hm": {
+		"hp": "3537",
+		"atk": "503",
+		"int": "233",
+		"def": "262",
+		"mdef": "250",
+		"skill": "317"
+	},	
+	"oliver_bm": {
+		"hp": "3273",
+		"atk": "503",
+		"int": "233",
+		"def": "262",
+		"mdef": "281",
+		"skill": "274"
+	},	
+	"ares_dm": {
+		"hp": "4096",
+		"atk": "599",
+		"int": "228",
+		"def": "305",
+		"mdef": "221",
+		"skill": "187"
+	},	
+	"ares_emperor": {
+		"hp": "4415",
+		"atk": "567",
+		"int": "249",
+		"def": "329",
+		"mdef": "286",
+		"skill": "168"
+	},	
+	"arianrhod_lm": {
+		"hp": "4846",
+		"atk": "557",
+		"int": "241",
+		"def": "344",
+		"mdef": "251",
+		"skill": "159"
+	},	
+	"arianrhod_sm": {
+		"hp": "4207",
+		"atk": "557",
+		"int": "265",
+		"def": "307",
+		"mdef": "341",
+		"skill": "159"
+	},	
+	"ashram_dm": {
+		"hp": "4139",
+		"atk": "601",
+		"int": "247",
+		"def": "291",
+		"mdef": "331",
+		"skill": "166"
+	},	
+	"ashram_rk": {
+		"hp": "4460",
+		"atk": "569",
+		"int": "247",
+		"def": "291",
+		"mdef": "295",
+		"skill": "126"
+	},	
+	"deedlit_es": {
+		"hp": "4365",
+		"atk": "267",
+		"int": "567",
+		"def": "318",
+		"mdef": "325",
+		"skill": "152"
+	},	
+	"deedlit_he": {
+		"hp": "3555",
+		"atk": "267",
+		"int": "539",
+		"def": "260",
+		"mdef": "384",
+		"skill": "87"
+	},	
+	"altina_wizard": {
+		"hp": "0",
+		"atk": "0",
+		"int": "0",
+		"def": "0",
+		"mdef": "0",
+		"skill": "0"
+	},	
+	"altina_ia": {
+		"hp": "0",
+		"atk": "0",
+		"int": "0",
+		"def": "0",
+		"mdef": "0",
+		"skill": "0"
+	},	
+	"florentia_tactician": {
+		"hp": "2944",
+		"atk": "312",
+		"int": "557",
+		"def": "228",
+		"mdef": "295",
+		"skill": "80"
+	},	
+	"florentia_ic": {
+		"hp": "2813",
+		"atk": "260",
+		"int": "591",
+		"def": "211",
+		"mdef": "295",
+		"skill": "80"
+	},	
+	"helena_sm": {
+		"hp": "4184",
+		"atk": "609",
+		"int": "233",
+		"def": "275",
+		"mdef": "254",
+		"skill": "113"
+	},	
+	"helena_rk": {
+		"hp": "4511",
+		"atk": "578",
+		"int": "233",
+		"def": "287",
+		"mdef": "283",
+		"skill": "113"
+	},	
+	"ilucia_sm": {
+		"hp": "4717",
+		"atk": "504",
+		"int": "247",
+		"def": "371",
+		"mdef": "267",
+		"skill": "103"
+	},	
+	"ilucia_rv": {
+		"hp": "5372",
+		"atk": "448",
+		"int": "247",
+		"def": "403",
+		"mdef": "212",
+		"skill": "88"
+	},	
+	"licorice_di": {
+		"hp": "3920",
+		"atk": "267",
+		"int": "509",
+		"def": "263",
+		"mdef": "400",
+		"skill": "117"
+	},	
+	"licorice_dm": {
+		"hp": "3606",
+		"atk": "267",
+		"int": "480",
+		"def": "254",
+		"mdef": "400",
+		"skill": "117"
+	},	
+	"maiya_rm": {
+		"hp": "0",
+		"atk": "0",
+		"int": "0",
+		"def": "0",
+		"mdef": "0",
+		"skill": "0"
+	},	
+	"maiya_martyr": {
+		"hp": "0",
+		"atk": "0",
+		"int": "0",
+		"def": "0",
+		"mdef": "0",
+		"skill": "0"
+	},	
+	"noemi_wizard": {
+		"hp": "3340",
+		"atk": "262",
+		"int": "547",
+		"def": "252",
+		"mdef": "393",
+		"skill": "96"
+	},	
+	"noemi_sw": {
+		"hp": "3503",
+		"atk": "316",
+		"int": "517",
+		"def": "272",
+		"mdef": "344",
+		"skill": "125"
+	},	
+	"rean_ss": {
+		"hp": "4538",
+		"atk": "585",
+		"int": "283",
+		"def": "320",
+		"mdef": "289",
+		"skill": "231"
+	},	
+	"rean_ah": {
+		"hp": "4538",
+		"atk": "555",
+		"int": "283",
+		"def": "346",
+		"mdef": "289",
+		"skill": "159"
+	},		
+	"renata_dm": {
+		"hp": "0",
+		"atk": "0",
+		"int": "0",
+		"def": "0",
+		"mdef": "0",
+		"skill": "0"
+	},	
+	"renata_fg": {
+		"hp": "0",
+		"atk": "0",
+		"int": "0",
+		"def": "0",
+		"mdef": "0",
+		"skill": "0"
+	},	
+	"rozalia_rk": {
+		"hp": "4841",
+		"atk": "578",
+		"int": "247",
+		"def": "274",
+		"mdef": "297",
+		"skill": "125"
+	},	
+	"rozalia_sk": {
+		"hp": "4841",
+		"atk": "578",
+		"int": "271",
+		"def": "263",
+		"mdef": "308",
+		"skill": "125"
+	},	
+	"sagey_wizard": {
+		"hp": "3279",
+		"atk": "256",
+		"int": "544",
+		"def": "250",
+		"mdef": "370",
+		"skill": "92"
+	},	
+	"sagey_gs": {
+		"hp": "3279",
+		"atk": "307",
+		"int": "544",
+		"def": "250",
+		"mdef": "348",
+		"skill": "92"
+	},	
+	"parn_hero": {
+		"hp": "4428",
+		"atk": "550",
+		"int": "254",
+		"def": "319",
+		"mdef": "255",
+		"skill": "143"
+	},	
+	"parn_sm": {
+		"hp": "4116",
+		"atk": "579",
+		"int": "231",
+		"def": "284",
+		"mdef": "228",
+		"skill": "121"
+	},	
+	"pirotess_ranger": {
+		"hp": "3275",
+		"atk": "506",
+		"int": "233",
+		"def": "236",
+		"mdef": "297",
+		"skill": "252"
+	},	
+	"pirotess_dea": {
+		"hp": "3700",
+		"atk": "506",
+		"int": "233",
+		"def": "254",
+		"mdef": "244",
+		"skill": "325"
+	},	
+	"shilinka_ss": {
+		"hp": "4456",
+		"atk": "595",
+		"int": "294",
+		"def": "295",
+		"mdef": "283",
+		"skill": "253"
+	},	
+	"shilinka_wd": {
+		"hp": "3676",
+		"atk": "537",
+		"int": "294",
+		"def": "263",
+		"mdef": "319",
+		"skill": "223"
+	},	
+	"tsubame_shadow": {
+		"hp": "3891",
+		"atk": "533",
+		"int": "240",
+		"def": "250",
+		"mdef": "257",
+		"skill": "336"
+	},	
+	"tsubame_ranger": {
+		"hp": "3442",
+		"atk": "533",
+		"int": "240",
+		"def": "230",
+		"mdef": "313",
+		"skill": "261"
+	},	
+	"virash_om": {
+		"hp": "4107",
+		"atk": "605",
+		"int": "225",
+		"def": "307",
+		"mdef": "259",
+		"skill": "147"
+	},	
+	"virash_swordmaster": {
+		"hp": "4419",
+		"atk": "574",
+		"int": "281",
+		"def": "330",
+		"mdef": "268",
+		"skill": "147"
+	}
+}

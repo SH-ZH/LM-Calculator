@@ -1,5 +1,13 @@
 {
 	"option_default": "Select a Soldier",
+	"lang1": "Langrisser 1",
+	"lang2": "Langrisser 2",
+	"lang3": "Langrisser 3",
+	"lang4": "Langrisser 4",
+	"lang5": "Langrisser 5",
+	"lang_reincarnation": "Langrisser Reincarnation",
+	"lang_mobile": "Langrisser Mobile",
+	"lang_collab": "Collaboration",
 	"infantry": "Infantry",
 	"lancer": "Lancer",
 	"calvary": "Calvary",

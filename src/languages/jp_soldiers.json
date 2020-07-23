@@ -1,5 +1,13 @@
 {
 	"option_default": "兵士選択",
+	"lang1": "ラングリッサー1",
+	"lang2": "ラングリッサー2",
+	"lang3": "ラングリッサー3",
+	"lang4": "ラングリッサー4",
+	"lang5": "ラングリッサー5",
+	"lang_reincarnation": "ラングリッサーリインカーネーション",
+	"lang_mobile": "ラングリッサーモバイル",
+	"lang_collab": "コラボレーション",
 	"infantry": "歩兵",
 	"lancer": "槍兵",
 	"calvary": "騎兵",
