@@ -1316,7 +1316,7 @@
 		"atk": "599",
 		"int": "228",
 		"def": "305",
-		"mdef": "221",
+		"mdef": "321",
 		"skill": "187"
 	},	
 	"ares_emperor": {
@@ -1376,20 +1376,20 @@
 		"skill": "87"
 	},	
 	"altina_wizard": {
-		"hp": "0",
-		"atk": "0",
-		"int": "0",
-		"def": "0",
-		"mdef": "0",
-		"skill": "0"
+		"hp": "3025",
+		"atk": "244",
+		"int": "532",
+		"def": "247",
+		"mdef": "362",
+		"skill": "83"
 	},	
 	"altina_ia": {
-		"hp": "0",
-		"atk": "0",
-		"int": "0",
-		"def": "0",
-		"mdef": "0",
-		"skill": "0"
+		"hp": "3170",
+		"atk": "270",
+		"int": "532",
+		"def": "247",
+		"mdef": "340",
+		"skill": "97"
 	},	
 	"florentia_tactician": {
 		"hp": "2944",
@@ -1456,20 +1456,20 @@
 		"skill": "117"
 	},	
 	"maiya_rm": {
-		"hp": "0",
-		"atk": "0",
-		"int": "0",
-		"def": "0",
-		"mdef": "0",
-		"skill": "0"
+		"hp": "3279",
+		"atk": "263",
+		"int": "544",
+		"def": "242",
+		"mdef": "389",
+		"skill": "104"
 	},	
 	"maiya_martyr": {
-		"hp": "0",
-		"atk": "0",
-		"int": "0",
-		"def": "0",
-		"mdef": "0",
-		"skill": "0"
+		"hp": "3443",
+		"atk": "314",
+		"int": "514",
+		"def": "262",
+		"mdef": "389",
+		"skill": "104"
 	},	
 	"noemi_wizard": {
 		"hp": "3340",
@@ -1504,20 +1504,20 @@
 		"skill": "159"
 	},		
 	"renata_dm": {
-		"hp": "0",
-		"atk": "0",
-		"int": "0",
-		"def": "0",
-		"mdef": "0",
-		"skill": "0"
+		"hp": "4444",
+		"atk": "607",
+		"int": "233",
+		"def": "326",
+		"mdef": "301",
+		"skill": "128"
 	},	
 	"renata_fg": {
-		"hp": "0",
-		"atk": "0",
-		"int": "0",
-		"def": "0",
-		"mdef": "0",
-		"skill": "0"
+		"hp": "4756",
+		"atk": "576",
+		"int": "233",
+		"def": "326",
+		"mdef": "237",
+		"skill": "184"
 	},	
 	"rozalia_rk": {
 		"hp": "4841",
@@ -1597,7 +1597,7 @@
 		"int": "294",
 		"def": "263",
 		"mdef": "319",
-		"skill": "223"
+		"skill": "224"
 	},	
 	"tsubame_shadow": {
 		"hp": "3891",
